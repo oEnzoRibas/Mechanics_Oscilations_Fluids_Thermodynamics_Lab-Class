@@ -1,0 +1,28 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bevington and Robinson(2003)]{bevington2003data}
+Philip~R. Bevington and Keith~D. Robinson.
+\newblock \emph{Data Reduction and Error Analysis for the Physical Sciences}.
+\newblock McGraw-Hill, New York, NY, 3rd edition, 2003.
+\newblock ISBN 978-0072472271.
+
+\bibitem[Nacional(1981)]{on_gravimetria_bh_1981}
+Observatório Nacional.
+\newblock Medição gravimétrica da aceleração da gravidade em belo
+  horizonte.
+\newblock Relatório técnico – programa da Rede Gravimétrica Fundamental
+  Brasileira, 1981.
+\newblock Departamento de Física, Belo Horizonte; g = $9{,}7838163\pm
+  4\times10^{-7}\,\mathrm{m/s^2}$.
+
+\bibitem[Nussenzveig(2013)]{moyses2013}
+Herch~Moyses Nussenzveig.
+\newblock \emph{Curso de física básica, 1: Mecânica}.
+\newblock Blucher, 5th edition, 2013.
+
+\end{thebibliography}

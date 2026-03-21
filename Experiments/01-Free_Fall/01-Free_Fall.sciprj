@@ -3,20 +3,20 @@ SciDAVis 2.2.7 project file
 <windows>	4
 <table>
 6964
-<table creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="Table1" columns="5" rows="9"><comment><![CDATA[]]></comment><column creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="t_y" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.1500000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">1.4099999999999999e-01</row><row type="TypeDouble" index="2" invalid="no">1.6800000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">1.8600000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">2.0300000000000001e-01</row><row type="TypeDouble" index="5" invalid="no">2.1199999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">2.5700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">2.8000000000000003e-01</row><row type="TypeDouble" index="8" invalid="no">3.7000000000000000e-01</row></column><column creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="t" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="3" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.1500000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">1.4099999999999999e-01</row><row type="TypeDouble" index="2" invalid="no">1.6800000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">1.8600000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">2.0300000000000001e-01</row><row type="TypeDouble" index="5" invalid="no">2.1199999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">2.5700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">2.8000000000000003e-01</row><row type="TypeDouble" index="8" invalid="no">3.7000000000000000e-01</row></column><column creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="sqrt(h)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="8">sqrt(col(&quot;h&quot;))</formula><row type="TypeDouble" index="0" invalid="no">2.2360679774997896e-01</row><row type="TypeDouble" index="1" invalid="no">2.8284271247461901e-01</row><row type="TypeDouble" index="2" invalid="no">3.4641016151377546e-01</row><row type="TypeDouble" index="3" invalid="no">3.8729833462074170e-01</row><row type="TypeDouble" index="4" invalid="no">4.2426406871192851e-01</row><row type="TypeDouble" index="5" invalid="no">4.4721359549995793e-01</row><row type="TypeDouble" index="6" invalid="no">5.4772255750516607e-01</row><row type="TypeDouble" index="7" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="8" invalid="no">8.0000000000000004e-01</row></column><column creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="t^2" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="8">col(&quot;t^2&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">1.3225000000000001e-02</row><row type="TypeDouble" index="1" invalid="no">1.9880999999999996e-02</row><row type="TypeDouble" index="2" invalid="no">2.8224000000000003e-02</row><row type="TypeDouble" index="3" invalid="no">3.4596000000000002e-02</row><row type="TypeDouble" index="4" invalid="no">4.1209000000000003e-02</row><row type="TypeDouble" index="5" invalid="no">4.4943999999999998e-02</row><row type="TypeDouble" index="6" invalid="no">6.6048999999999997e-02</row><row type="TypeDouble" index="7" invalid="no">7.8400000000000011e-02</row><row type="TypeDouble" index="8" invalid="no">1.3689999999999999e-01</row></column><column creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="h" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="3" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.0000000000000003e-02</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000002e-02</row><row type="TypeDouble" index="2" invalid="no">1.2000000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">1.4999999999999999e-01</row><row type="TypeDouble" index="4" invalid="no">1.7999999999999999e-01</row><row type="TypeDouble" index="5" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="6" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">3.5999999999999999e-01</row><row type="TypeDouble" index="8" invalid="no">6.4000000000000001e-01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">284</column_width></table>
+<table creation_time="2026-21-03 00:18:25:000" caption_spec="%n%C{ - }%c" name="Table1" columns="5" rows="9"><comment><![CDATA[]]></comment><column creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="t_y" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:35:29:762" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.1500000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">1.4099999999999999e-01</row><row type="TypeDouble" index="2" invalid="no">1.6800000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">1.8600000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">2.0300000000000001e-01</row><row type="TypeDouble" index="5" invalid="no">2.1199999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">2.5700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">2.8000000000000003e-01</row><row type="TypeDouble" index="8" invalid="no">3.7000000000000000e-01</row></column><column creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="t" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:18:25:678" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="3" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">1.1500000000000000e-01</row><row type="TypeDouble" index="1" invalid="no">1.4099999999999999e-01</row><row type="TypeDouble" index="2" invalid="no">1.6800000000000001e-01</row><row type="TypeDouble" index="3" invalid="no">1.8600000000000000e-01</row><row type="TypeDouble" index="4" invalid="no">2.0300000000000001e-01</row><row type="TypeDouble" index="5" invalid="no">2.1199999999999999e-01</row><row type="TypeDouble" index="6" invalid="no">2.5700000000000001e-01</row><row type="TypeDouble" index="7" invalid="no">2.8000000000000003e-01</row><row type="TypeDouble" index="8" invalid="no">3.7000000000000000e-01</row></column><column creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="sqrt(h)" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:22:03:598" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="8">sqrt(col(&quot;h&quot;))</formula><row type="TypeDouble" index="0" invalid="no">2.2360679774997896e-01</row><row type="TypeDouble" index="1" invalid="no">2.8284271247461901e-01</row><row type="TypeDouble" index="2" invalid="no">3.4641016151377546e-01</row><row type="TypeDouble" index="3" invalid="no">3.8729833462074170e-01</row><row type="TypeDouble" index="4" invalid="no">4.2426406871192851e-01</row><row type="TypeDouble" index="5" invalid="no">4.4721359549995793e-01</row><row type="TypeDouble" index="6" invalid="no">5.4772255750516607e-01</row><row type="TypeDouble" index="7" invalid="no">5.9999999999999998e-01</row><row type="TypeDouble" index="8" invalid="no">8.0000000000000004e-01</row></column><column creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="t^2" type="TypeDouble" mode="Numeric" plot_designation="X"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:21:59:235" caption_spec="%n%C{ - }%c" name="OutputFilter" format="g" digits="6" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><formula start_row="0" end_row="8">col(&quot;t^2&quot;)^2</formula><row type="TypeDouble" index="0" invalid="no">1.3225000000000001e-02</row><row type="TypeDouble" index="1" invalid="no">1.9880999999999996e-02</row><row type="TypeDouble" index="2" invalid="no">2.8224000000000003e-02</row><row type="TypeDouble" index="3" invalid="no">3.4596000000000002e-02</row><row type="TypeDouble" index="4" invalid="no">4.1209000000000003e-02</row><row type="TypeDouble" index="5" invalid="no">4.4943999999999998e-02</row><row type="TypeDouble" index="6" invalid="no">6.6048999999999997e-02</row><row type="TypeDouble" index="7" invalid="no">7.8400000000000011e-02</row><row type="TypeDouble" index="8" invalid="no">1.3689999999999999e-01</row></column><column creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="h" type="TypeDouble" mode="Numeric" plot_designation="Y"><comment><![CDATA[]]></comment><input_filter><simple_filter creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="InputFilter" filter_name="String2DoubleFilter"><comment><![CDATA[]]></comment></simple_filter></input_filter><output_filter><simple_filter creation_time="2026-21-03 00:18:25:679" caption_spec="%n%C{ - }%c" name="OutputFilter" format="f" digits="3" filter_name="Double2StringFilter"><comment><![CDATA[]]></comment></simple_filter></output_filter><row type="TypeDouble" index="0" invalid="no">5.0000000000000003e-02</row><row type="TypeDouble" index="1" invalid="no">8.0000000000000002e-02</row><row type="TypeDouble" index="2" invalid="no">1.2000000000000000e-01</row><row type="TypeDouble" index="3" invalid="no">1.4999999999999999e-01</row><row type="TypeDouble" index="4" invalid="no">1.7999999999999999e-01</row><row type="TypeDouble" index="5" invalid="no">2.0000000000000001e-01</row><row type="TypeDouble" index="6" invalid="no">2.9999999999999999e-01</row><row type="TypeDouble" index="7" invalid="no">3.5999999999999999e-01</row><row type="TypeDouble" index="8" invalid="no">6.4000000000000001e-01</row></column><column_width column="0">120</column_width><column_width column="1">120</column_width><column_width column="2">120</column_width><column_width column="3">120</column_width><column_width column="4">284</column_width></table>
 geometry	753	442	751	440	
 
 </table>
 <multiLayer>
 Graph1	1	1	sábado, 21 de março de 2026 00:34:45 Hora oficial do Brasil
-geometry	0	442	753	440	
+geometry	0	442	753	440	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	427	271
 Alignement	0	0
 <graph>
-ggeometry	8	6	720	369
+ggeometry	8	6	727	371
 PlotTitle	<b>Free Fall: </b> Height <i> h</i> as a Function of Time <i>t</i>	#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -42,12 +42,13 @@ AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_t	Table1_h	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,NonLinearFit1,x,0.115,0.37	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	658396608	621	1
+FunctionCurve	0,NonLinearFit1,x,0.115,0.37	100			0	1	#ffff0000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-705471344	570	1
 <formula>
 a=9.56088505838644
 b=-0.0150434356031264
 
 a/2*x^2+b
+
 </formula>
 scale	0	0	0.7	0	8	5	0	0
 scale	1	0	0.7	0	8	5	0	0
@@ -61,7 +62,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	0.104538577912254	0.676588628762542	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Quadratic Fit	</legend>
+<legend>	0.104538577912254	0.676588628762542	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Quadratic Fit: (a/2)x<sup>2</sup> + b</legend>
 </graph>
 </multiLayer>
 <multiLayer>
@@ -73,7 +74,7 @@ Spacing	5	5
 LayerCanvasSize	427	271
 Alignement	0	0
 <graph>
-ggeometry	6	5	721	371
+ggeometry	6	5	727	373
 PlotTitle	<b>Linearized Plot:</b> Height <i>h</i> as a Function of <i>t<sup>2</sup></i>	#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -99,12 +100,13 @@ AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_t^2	Table1_h	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,NonLinearFit1,x,0.013225,0.1369	100			0	1	#ff0000ff	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	622439584	621	1
+FunctionCurve	0,NonLinearFit1,x,0.013225,0.1369	100			0	1	#ff0000ff	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-705464048	570	1
 <formula>
 a=9.56088505838644
 b=-0.0150434356031264
 
 a/2*x+b
+
 </formula>
 scale	0	0	0.7	0	8	5	0	0
 scale	1	0	0.7	0	8	5	0	0
@@ -118,19 +120,19 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	0.00212443095599393	0.676744186046512	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Fit: h = (g/2)t² + b	</legend>
+<legend>	0.00212443095599393	0.676744186046512	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Fit: h = (g/2)t² + b</legend>
 </graph>
 </multiLayer>
 <multiLayer>
 Graph3	1	1	sábado, 21 de março de 2026 00:40:29 Hora oficial do Brasil
-geometry	753	0	751	442	active
+geometry	753	0	751	442	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	422	271
 Alignement	0	0
 <graph>
-ggeometry	8	6	718	371
+ggeometry	8	6	725	373
 PlotTitle	<b>Linearized Plot:</b> Time <i>t</i> as a Function of <i>√h</i>	#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -156,12 +158,13 @@ AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
 curve	Table1_sqrt(h)	Table1_t	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	29	1
-FunctionCurve	0,NonLinearFit1,x,0.223606797749979,0.8	100			0	1	#ff008000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	16	64		2	0	621193088	621	1
+FunctionCurve	0,NonLinearFit1,x,0.223606797749979,0.8	100			0	1	#ff008000	0	1	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-706309280	570	1
 <formula>
 a=10.2312232033732
 b=0.0152478719128495
 
 sqrt(2/a)*x + b
+
 </formula>
 scale	0	0.1	0.4	0	8	5	0	0
 scale	1	0.1	0.4	0	8	5	0	0
@@ -175,7 +178,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	0.210703363914373	0.390033222591362	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Fit: t = √(2h/g) + b	</legend>
+<legend>	0.210703363914373	0.390033222591362	MS Shell Dlg 2	9	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Experimental Data	\c{2}Fit: t = √(2h/g) + b</legend>
 </graph>
 </multiLayer>
 <log>

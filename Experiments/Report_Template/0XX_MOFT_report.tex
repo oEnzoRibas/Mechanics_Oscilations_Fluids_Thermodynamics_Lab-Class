@@ -1,26 +1,72 @@
 \documentclass[12pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage[brazilian]{babel}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{siunitx}
 \usepackage{booktabs}
 \usepackage{geometry}
+\usepackage[authoryear]{natbib}
 
 \geometry{margin=2.5cm}
 
 \title{Determinação da Aceleração da Gravidade por Meio do Experimento de Queda Livre}
-\author{Enzo Rochaa Leitea Diniz Ribas \\ Centro Federal de Educação Tecnológica de Minas Gerais}
+\author{Enzo Rocha Leite Diniz Ribas \\ Centro Federal de Educação Tecnológica de Minas Gerais}
 \date{\today}
 
 \begin{document}
+\begin{titlepage}
 
-\maketitle
+\begin{center}
 
-\section{Objetivo}
+\includegraphics[width=4cm]{media/Logo_CEFET-MG.png}
 
-Determinar o valor local da aceleração da gravidade por meio da análise do movimento de queda livre de uma esfera metálica, explorando diferentes métodos de ajuste de dados e comparando os resultados obtidos.
+\Large
+Centro Federal de Educação Tecnológica de Minas Gerais
+
+\vspace{1cm}
+
+\Large
+Curso de Engenharia Mecânica
+
+\vspace{2cm}
+
+\Huge
+Determinação da Aceleração da Gravidade por Meio do Experimento de Queda Livre
+
+\vspace{3cm}
+
+\begin{flushright}
+\Large
+Mecânica, Oscilações, Fluidos e Termodinâmica, Turma 6T56 \\
+Prof. Dr. Mauro Lucio Lobão Iannini
+\end{flushright}
+
+\vspace{3cm}
+
+\Large
+Enzo Rocha Leite Diniz Ribas (Eng. Mecânica - 20253002819)\\
+Gabriel Resende Amorim Oliveira (Eng. Elétrica - 20233014438)\\
+Leandro Césari e Silva Barros (Eng. Mecânica - 20253005104)\\
+
+\vfill
+
+\Large
+Belo Horizonte
+
+\Large
+\the\year
+
+\end{center}
+
+\end{titlepage}
+
+\section{Introdução}
+
+O experimento de queda livre constitui um dos métodos clássicos para a determinação da aceleração da gravidade. A análise do movimento de um corpo submetido exclusivamente à ação da gravidade permite verificar experimentalmente as relações previstas pela cinemática do movimento uniformemente acelerado.
+
+Neste trabalho busca-se determinar o valor local da aceleração da gravidade a partir da análise do tempo de queda de uma esfera metálica liberada a partir de diferentes alturas. Os dados experimentais foram analisados por meio de diferentes métodos de ajuste e linearização, permitindo comparar os resultados obtidos.
 
 \section{Fundamentação Teórica}
 
@@ -70,7 +116,20 @@ Foram selecionadas diferentes alturas ao longo da régua disponível, cobrindo u
 
 Os dados foram organizados em tabela e analisados utilizando o software SciDAVis para geração de gráficos e realização de ajustes de curvas.
 
-\section{Resultados}
+\section{Procedimentos}
+
+O procedimento experimental seguiu as seguintes etapas:
+
+\begin{itemize}
+\item ajuste da altura inicial da esfera em diferentes posições da régua;
+\item liberação da esfera a partir do repouso;
+\item registro do tempo de queda utilizando sensores ópticos;
+\item repetição das medições para diferentes alturas;
+\item organização dos dados em tabela;
+\item construção de gráficos e realização de ajustes no SciDAVis.
+\end{itemize}
+
+\section{Discussão e Análise dos Resultados}
 
 A Tabela \ref{tab:dados} apresenta os valores experimentais obtidos.
 
@@ -96,7 +155,7 @@ O gráfico da altura em função do tempo apresenta comportamento parabólico, c
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit}
+\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit.pdf}
 \caption{Altura em função do tempo de queda.}
 \end{figure}
 
@@ -106,7 +165,7 @@ A linearização dos dados permitiu obter uma relação aproximadamente linear.
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit}
+\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit.pdf}
 \caption{Gráfico linearizado $h$ em função de $t^2$.}
 \end{figure}
 
@@ -129,8 +188,6 @@ O ajuste forneceu
 \begin{equation}
 g = 10.55 \pm 0.14 \; \text{m/s}^2
 \end{equation}
-
-\section{Discussão}
 
 O valor de referência para a aceleração da gravidade em Belo Horizonte é
 
@@ -157,5 +214,8 @@ A resistência do ar foi considerada desprezível devido às pequenas alturas e 
 \section{Conclusão}
 
 A análise experimental permitiu determinar a aceleração da gravidade com boa concordância com o valor esperado para a região de Belo Horizonte. Os diferentes métodos de ajuste apresentaram resultados próximos, sendo o método baseado na linearização $h$ vs $t^2$ o que apresentou maior estabilidade estatística.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
 
 \end{document}
