@@ -1,0 +1,161 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{geometry}
+
+\geometry{margin=2.5cm}
+
+\title{Determinação da Aceleração da Gravidade por Meio do Experimento de Queda Livre}
+\author{Enzo Rochaa Leitea Diniz Ribas \\ Centro Federal de Educação Tecnológica de Minas Gerais}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Objetivo}
+
+Determinar o valor local da aceleração da gravidade por meio da análise do movimento de queda livre de uma esfera metálica, explorando diferentes métodos de ajuste de dados e comparando os resultados obtidos.
+
+\section{Fundamentação Teórica}
+
+Quando um objeto é abandonado a partir do repouso e submetido apenas à força gravitacional, ele realiza um movimento retilíneo uniformemente acelerado. Desprezando a resistência do ar, a equação do movimento é dada por
+
+\begin{equation}
+h = \frac{1}{2}gt^2
+\end{equation}
+
+onde:
+
+\begin{itemize}
+\item $h$ é a altura de queda,
+\item $t$ é o tempo de queda,
+\item $g$ é a aceleração da gravidade.
+\end{itemize}
+
+A partir dessa equação podem ser construídas diferentes representações gráficas para determinação experimental de $g$.
+
+Uma possibilidade consiste em linearizar a equação construindo o gráfico
+
+\begin{equation}
+h \; \text{vs} \; t^2
+\end{equation}
+
+o que resulta em uma relação linear da forma
+
+\begin{equation}
+h = \left(\frac{g}{2}\right)t^2
+\end{equation}
+
+onde o coeficiente angular da reta corresponde a $g/2$.
+
+Outra possibilidade consiste em isolar o tempo:
+
+\begin{equation}
+t = \sqrt{\frac{2}{g}}\sqrt{h}
+\end{equation}
+
+resultando em uma relação linear entre $t$ e $\sqrt{h}$.
+
+\section{Metodologia}
+
+O experimento foi realizado utilizando um sistema composto por sensores ópticos conectados a um cronômetro eletrônico. Uma esfera metálica foi liberada a partir de diferentes alturas e o tempo de queda foi registrado.
+
+Foram selecionadas diferentes alturas ao longo da régua disponível, cobrindo uma faixa ampla de valores. Para cada altura, registrou-se o tempo correspondente à passagem da esfera entre os sensores.
+
+Os dados foram organizados em tabela e analisados utilizando o software SciDAVis para geração de gráficos e realização de ajustes de curvas.
+
+\section{Resultados}
+
+A Tabela \ref{tab:dados} apresenta os valores experimentais obtidos.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ccc}
+\toprule
+Altura $h$ (m) & Tempo $t$ (s) & $t^2$ (s$^2$) \\
+\midrule
+% inserir dados aqui
+0.044 & 0.096 & 0.0092 \\
+0.100 & 0.142 & 0.0202 \\
+0.200 & 0.201 & 0.0404 \\
+\bottomrule
+\end{tabular}
+\caption{Dados experimentais de altura e tempo de queda.}
+\label{tab:dados}
+\end{table}
+
+\subsection{Gráfico $h$ vs $t$}
+
+O gráfico da altura em função do tempo apresenta comportamento parabólico, conforme esperado teoricamente.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit}
+\caption{Altura em função do tempo de queda.}
+\end{figure}
+
+\subsection{Linearização $h$ vs $t^2$}
+
+A linearização dos dados permitiu obter uma relação aproximadamente linear.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit}
+\caption{Gráfico linearizado $h$ em função de $t^2$.}
+\end{figure}
+
+A partir do ajuste linear obteve-se
+
+\begin{equation}
+g = 9.80 \pm 0.10 \; \text{m/s}^2
+\end{equation}
+
+\subsection{Linearização $t$ vs $\sqrt{h}$}
+
+Também foi realizado um ajuste utilizando a relação
+
+\begin{equation}
+t = \sqrt{\frac{2}{g}}\sqrt{h} + b
+\end{equation}
+
+O ajuste forneceu
+
+\begin{equation}
+g = 10.55 \pm 0.14 \; \text{m/s}^2
+\end{equation}
+
+\section{Discussão}
+
+O valor de referência para a aceleração da gravidade em Belo Horizonte é
+
+\begin{equation}
+g_{BH} = 9.784 \; \text{m/s}^2
+\end{equation}
+
+O erro percentual foi calculado por
+
+\begin{equation}
+\text{Erro} = \frac{|g_{exp} - g_{ref}|}{g_{ref}} \times 100
+\end{equation}
+
+Diferenças entre os valores obtidos podem ser atribuídas a:
+
+\begin{itemize}
+\item incertezas na medição da altura;
+\item atraso de resposta dos sensores;
+\item pequenas variações no instante de liberação da esfera.
+\end{itemize}
+
+A resistência do ar foi considerada desprezível devido às pequenas alturas e às baixas velocidades envolvidas no experimento.
+
+\section{Conclusão}
+
+A análise experimental permitiu determinar a aceleração da gravidade com boa concordância com o valor esperado para a região de Belo Horizonte. Os diferentes métodos de ajuste apresentaram resultados próximos, sendo o método baseado na linearização $h$ vs $t^2$ o que apresentou maior estabilidade estatística.
+
+\end{document}
