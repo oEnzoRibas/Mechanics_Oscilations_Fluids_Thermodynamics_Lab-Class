@@ -120,7 +120,7 @@ O tempo de queda foi registrado automaticamente pelo sistema de sensores óptico
 Foram feitas 3 medições para cada uma das 9 alturas selecionadas, totalizando 27 medições. As alturas escolhidas foram: 0.05 m, 0.08 m, 0.12 m, 0.15 m, 0.18 m, 0.2 m, 0.3 m, 0.36 m e 0.64 m, em relação à posição inicial.
 
 \subsubsection{Organização dos dados em tabela}
-Foi feita uma média aritmética dostempos registrados para cada altura, e os valores médios foram utilizados para a análise dos dados.
+Foi feita uma média aritmética dos tempos registrados para cada altura, e os valores médios foram utilizados para a análise dos dados.
 
 \subsubsection{Construção de gráficos e realização de ajustes no SciDAVis}
 Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados. No experimento, a esfera é abandonada a partir do repouso e  o ponto de liberação como origem das posições, a equação \eqref{eq:movimento} do movimento torna-se
@@ -133,13 +133,8 @@ A primeira possibilidade consiste em analisar o gráfico da altura em função d
 \begin{equation*}
 h(t) = A t^2
 \end{equation*}
-no qual o coeficiente $A$ corresponde a $g/2$, logo $g = 2A$. Na forma original, a equação é dada por
-\begin{equation}
-h(t) = \frac{g}{2} t^2.
-\label{eq:quadratic}
-\end{equation}
 
-Pelo ajuste não linear dos dados no gráfico $h$ vs $t$, o valor de $g$ pode ser determinado a partir do coeficiente do termo quadrático. Mas essa representação não é a mais adequada para a determinação de $g$ a partir de um ajuste de curva, pois envolve o ajustes não lineares que necessitam métodos iterativos e uma boa estimativa inicial, enquanto ajustes lineares podem ser resolvidos de forma mais simples e direta \citep{bevington2003data}.
+Pelo ajuste não linear dos dados no gráfico $h$ vs $t$, o valor de $g$ pode ser determinado a partir do coeficiente do termo quadrático. Mas essa representação não é a mais adequada para a determinação de $g$ a partir de um ajuste de curva, pois envolve o ajuste não linear, que requer de métodos iterativos e uma boa estimativa inicial, enquanto ajustes lineares podem ser resolvidos de forma mais simples e direta \citep{bevington2003data}.
 
 Portanto, uma forma de linearização do movimento é definir \(z = t^2\), de modo que o gráfico da altura \(h\) em função de \(z\) resulte em uma relação linear:
 
@@ -147,7 +142,7 @@ Portanto, uma forma de linearização do movimento é definir \(z = t^2\), de mo
 h(z) = A z + b,
 \end{equation*}
 
-onde \(A = \frac{g}{2}\) é o coeficiente angular da reta e \(b\) é um deslocamento fixo que corrige a posição inicial medida pelo sensor, já que o ponto exato de detecção não pode ser definido com precisão. Em termos de \(t\), a relação original é
+em que \(A = \frac{g}{2}\) é o coeficiente angular da reta e \(b\) é um deslocamento fixo que corrige a posição inicial medida pelo sensor, já que o ponto exato de detecção não pode ser definido com precisão. Em termos de \(t\), a relação original é
 
 \begin{equation}
 h(t) = \frac{g}{2} t^2 + b.
@@ -184,25 +179,25 @@ A = \sqrt{\frac{2}{g}} \implies g = \frac{2}{A^2}.
 
 A Tabela ~\ref{tab:experimental_data} apresenta os valores experimentais obtidos.
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
-\begin{tabular}{cc}
+\begin{tabular}{S[table-format=1.3] S[table-format=1.2]}
 \toprule
-\textbf{Tempo Médio $t$ (s)} & \textbf{Altura $h$ (m)} \\
+{\textbf{Tempo $t \pm 0,0005$ (s)}} & {\textbf{Altura $h \pm 0,005$ (m)}} \\
 \midrule
-0,115 & 0,05 \\
-0,141 & 0,08 \\
-0,168 & 0,12 \\
-0,186 & 0,15 \\
-0,203 & 0,18 \\
-0,212 & 0,20 \\
-0,257 & 0,30 \\
-0,280 & 0,36 \\
-0,370 & 0,64 \\
+    0.115 & 0.05 \\
+    0.141 & 0.08 \\
+    0.168 & 0.12 \\
+    0.186 & 0.15 \\
+    0.203 & 0.18 \\
+    0.212 & 0.20 \\
+    0.257 & 0.30 \\
+    0.280 & 0.36 \\
+    0.370 & 0.64 \\
 \bottomrule
 \end{tabular}
-\caption{Dados experimentais de altura e tempo de queda.}
-\label{tab:experimental_data}
+\caption{Dados experimentais de tempo e altura com incertezas instrumentais fixas.}
+~\label{tab:experimental_data}
 \end{table}
 
 \subsection{Gráfico $h$ versus $t$}
