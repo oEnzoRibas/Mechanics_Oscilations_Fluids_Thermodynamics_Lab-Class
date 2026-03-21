@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/001_MOFT_report"] 1774122479.89952 "build/001_MOFT_report.aux" "build/001_MOFT_report.bbl" "build/001_MOFT_report" 1774122482.39143 0
+["bibtex build/001_MOFT_report"] 1774125790.64695 "build/001_MOFT_report.aux" "build/001_MOFT_report.bbl" "build/001_MOFT_report" 1774125793.01932 0
   "./refs.bib" 1774116659 1180 e9b47302bf32b79d8ce96cfee9725202 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "build/001_MOFT_report.aux" 1774122481 5384 18ff2bb0eab5ca3aad51b83c53861956 "pdflatex"
+  "build/001_MOFT_report.aux" 1774125792 5384 18ff2bb0eab5ca3aad51b83c53861956 "pdflatex"
   (generated)
   "build/001_MOFT_report.bbl"
   "build/001_MOFT_report.blg"
   (rewritten before read)
-["pdflatex"] 1774122480.23455 "f:/Users/Enzo HD/Github/Repos/er/atom-chess/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/01-Free_Fall/01-Report/001_MOFT_report.tex" "build/001_MOFT_report.pdf" "001_MOFT_report" 1774122482.39242 0
-  "001_MOFT_report.tex" 1774122477 19636 f8260dc5c12468bc8ec4ac8f3f19918e ""
+["pdflatex"] 1774125790.98575 "f:/Users/Enzo HD/Github/Repos/er/atom-chess/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/01-Free_Fall/01-Report/001_MOFT_report.tex" "build/001_MOFT_report.pdf" "001_MOFT_report" 1774125793.02018 0
+  "001_MOFT_report.tex" 1774125787 19662 888e9fd149569f32ed637592e513d0b8 ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1774067251 262767 f9dafed0b55ef52f2ae378bf29f3dd91 ""
   "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769105487 13333528 ac686ffacc73593e2f24978542ba9c29 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -79,11 +79,12 @@
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty" 1292249081 46712 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty" 1752082377 344221 f0c98c737eca26294f5039e8afde731f ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
+  "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1761901070 1618 30b01152766afcef2ed8f904cfdd3cc6 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-brazil.trsl" 1644048522 5992 3b92a9a1524d0f6a211951f4106f778c ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "build/001_MOFT_report.aux" 1774122481 5384 18ff2bb0eab5ca3aad51b83c53861956 "pdflatex"
-  "build/001_MOFT_report.bbl" 1774122480 1093 a40cdf1e98c00f7447077e8362c25d4d "bibtex build/001_MOFT_report"
-  "f:/Users/Enzo HD/Github/Repos/er/atom-chess/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/01-Free_Fall/01-Report/001_MOFT_report.tex" 1774122477 19636 f8260dc5c12468bc8ec4ac8f3f19918e ""
+  "build/001_MOFT_report.aux" 1774125792 5384 18ff2bb0eab5ca3aad51b83c53861956 "pdflatex"
+  "build/001_MOFT_report.bbl" 1774125790 1093 a40cdf1e98c00f7447077e8362c25d4d "bibtex build/001_MOFT_report"
+  "f:/Users/Enzo HD/Github/Repos/er/atom-chess/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/01-Free_Fall/01-Report/001_MOFT_report.tex" 1774125787 19662 888e9fd149569f32ed637592e513d0b8 ""
   "media/Logo_CEFET-MG.png" 1774095351 166646 dd2b4d6ce3369b6abe7ea100c1458b1f ""
   "media/graph1_quadratic_fit.pdf" 1774093893 20385 7299089b28386e87cff95f6988e8a00d ""
   "media/graph2_linearization_hoft2.pdf" 1774093893 22588 38fbd18a195a27798acab1f7bb682fc1 ""
