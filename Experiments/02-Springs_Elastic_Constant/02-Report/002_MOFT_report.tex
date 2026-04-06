@@ -87,317 +87,314 @@ Os sistemas massa-mola, usados de forma clássica para exemplificar a Lei de Hoo
 \centering
 \includegraphics[width=0.7\textwidth]{media/photos/spring_diagram1.png}
 \caption{Uma mola helicoidal de massa desprezível é pendurada por uma extremidade (a). Ao se 
-colocar um objeto de massa  na outra extremidade, ocorre um alongamento (b).}
+colocar um objeto de massa  na outra extremidade, ocorre um alongamento (b).  Fonte: \citep{Roteiro_Experimento_02}.}
 \label{fig:setup1}
+\end{figure}
+
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{media/photos/spring_diagram1.png}
-\caption{Uma mola helicoidal de massa desprezível é pendurada por uma extremidade (a). Ao se 
-colocar um objeto de massa  na outra extremidade, ocorre um alongamento (b).}
+\includegraphics[width=0.7\textwidth]{media/photos/spring_diagram2.png}
+\caption{Ilustração da associação de duas molas (a) em série, com uma posicionada na 
+extremidade da outra, e (b) em paralelo, com uma posicionada ao lado da outra. Fonte: \citep{Roteiro_Experimento_02}.}
 \label{fig:setup2}
 \end{figure}
 
-Na figura
+A partir da variação da massa presa à mola e do deslocamento da distenção, os sistemas descritos foram realizados experimentos para determinar as constantes elásticas de duas molas como exemplificado na Figura \ref{fig:setup3}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{media/photos/spring_diagram3.png}
+\caption{Exemplificação da variação da massa presa à mola e do deslocamento da distenção. Fonte: Autor.}
+\label{fig:setup3}
+\end{figure}
+
+O sistema da figura \ref{fig:setup1} é usado para determinar a constante elástica $k_1$ de uma mola. Enquanto o sistema da figura \ref{fig:setup2} é usado para determinar a constante elástica $k_{s}$ da associação em série e $k_{p}$ da associação em paralelo. As massas utilizadas para variar o peso do sistema não foram devidamente calibradas, o que pode levar a leves desvios nos resultados, mas não significativos para a finalidade do experimento. 
+
+Com o sistema montado, foram selecionadas duas molas, \textit{mola 1} e \textit{mola 2}, com constantes elásticas $k_1$ e $k_2$, respectivamente. Com o setup da figura \ref{fig:setup1} foi observado o deslocamento da mola com a variação do peso, e registrado. Em seguida, com o setup da figura \ref{fig:setup2} foram observados os deslocamentos para as associações em série e paralelo de $k_1$ e $k_2$, e registrados.
+
+A partir da análise dos dados obtidos, as constantes elásticas da \textit{mola 1}, $k_1$; do sistema em série, $k_s$ e do sistema em paralelo, $k_p$ foram determinadas, e a constante elástica $k_2$ da segunda mola foi calculada a partir das relações de associação em série e paralelo. Ademais a constante elástica $k_2$ da segunda mola também foi determinada a partir do setup da figura \ref{fig:setup1} para comparação com o valor calculado a partir das associações em série e paralelo.
 
 \section{Procedimentos}
 
 O procedimento experimental seguiu as seguintes etapas:
 
-\subsubsection{Ajuste de posições dos sensores e do eletroímã}
-A esfera metálica foi posicionada em um ponto fixo. O sensor óptico teve sua posição ajustada em diferentes alturas para detectar a passagem da esfera.
+\subsubsection{Ajuste de posições do sistema}
+As molas foram fixadas em um suporte vertical, garantindo que estivessem alinhadas e livres para se estenderem sem obstruções. Suas posições iniciais foram marcadas para referência.
 
-\subsubsection{Liberação da esfera a partir do repouso}
-A esfera foi liberada a partir do repouso, garantindo que a velocidade inicial fosse nula.
+\subsubsection{Variação da massa e registro do deslocamento}
+Foram utilizadas massas diferentes para variar o peso do sistema, e os deslocamentos das molas foram registrados.
 
-\subsubsection{Registro do tempo de queda utilizando sensores ópticos}
-O tempo de queda foi registrado automaticamente pelo sistema de sensores ópticos, que detecta a passagem da esfera e exibe o resultado em um display digital.
-
-\subsubsection{Repetição das medições para diferentes alturas}
-Foram feitas 3 medições para cada uma das 9 alturas selecionadas, totalizando 27 medições. As alturas escolhidas foram: 0.05 m, 0.08 m, 0.12 m, 0.15 m, 0.18 m, 0.2 m, 0.3 m, 0.36 m e 0.64 m, em relação à posição inicial.
+\subsubsection{Repetição das medições para diferentes massas e associações}
+Foram feitas medições para diferentes massas e para as associações em série e paralelo, garantindo a obtenção de um conjunto de dados robusto para análise.
 
 \subsubsection{Organização dos dados em tabela}
-Foi feita uma média aritmética dos tempos registrados para cada altura, e os valores médios foram utilizados para a análise dos dados.
+Os dados coletados foram organizados em tabelas para facilitar a análise. Cada tabela continha as massas utilizadas, os deslocamentos correspondentes e a força peso associada a cada massa, calculada como $F = mg$, em que $g$ é a aceleração da gravidade local ($g_{bh} = 9.78 \, \text{m/s}^2$).
 
 \subsubsection{Construção de gráficos e realização de ajustes no SciDAVis}
-Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados. No experimento, a esfera é abandonada a partir do repouso e  o ponto de liberação como origem das posições, a equação \eqref{eq:movimento} do movimento torna-se
-\begin{equation}
-h_0 = 0; v_0 = 0 \implies h = \frac{1}{2} g t^2
-\end{equation}
-A partir dessa equação podem ser construídas diferentes representações gráficas para determinação experimental de $g$.
-
-A primeira possibilidade consiste em analisar o gráfico da altura em função do tempo, $h$ vs $t$, o que resulta em um comportamento parabólico do tipo
-\begin{equation*}
-h(t) = A t^2
-\end{equation*}
-
-Pelo ajuste não linear dos dados no gráfico $h$ vs $t$, o valor de $g$ pode ser determinado a partir do coeficiente do termo quadrático. Mas essa representação não é a mais adequada para a determinação de $g$ a partir de um ajuste de curva, pois envolve o ajuste não linear, que requer de métodos iterativos e uma boa estimativa inicial, enquanto ajustes lineares podem ser resolvidos de forma mais simples e direta \citep{bevington2003data}.
-
-Portanto, uma forma de linearização do movimento é definir \(z = t^2\), de modo que o gráfico da altura \(h\) em função de \(z\) resulte em uma relação linear:
-
-\begin{equation*}
-h(z) = A z + b,
-\end{equation*}
-
-em que \(A = \frac{g}{2}\) é o coeficiente angular da reta e \(b\) é um deslocamento fixo que corrige a posição inicial medida pelo sensor, já que o ponto exato de detecção não pode ser definido com precisão. Em termos de \(t\), a relação original é
+Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados. Gráficos de força peso $F$ versus deslocamento $x$ foram construídos para cada configuração (mola 1, mola 2, série e paralelo). Ajustes lineares foram realizados para determinar as constantes elásticas a partir do coeficiente angular dos gráficos, utilizando a relação 
 
 \begin{equation}
-h(t) = \frac{g}{2} t^2 + b.
-\label{eq:linearized_with_t2}
+    k = \frac{F}{x}.
 \end{equation}
 
-A partir do ajuste linear dos dados no gráfico \(h\) vs \(t^2\), o valor da aceleração da gravidade pode ser determinado a partir do coeficiente angular, usando
+\subsubsection{Cálculo das constantes elásticas}
+A partir dos coeficientes dos ajustes lineares calculados experimentalmente, as constantes elásticas $k_1$, $k_2$, $k_s$ e $k_p$ foram determinadas.
 
-\begin{equation*}
-A = \frac{g}{2} \implies g = 2A.
-\end{equation*}
+A partir da análise do diagrama de corpo livre, as relações de associação em série e paralelo foram utilizadas para calcular a constante elástica $k_2$ da segunda mola, e os resultados foram comparados com o valor obtido diretamente do ajuste linear do setup da figura \ref{fig:setup1}.
 
-Outra possibilidade de linearização consiste em definir \(w = \sqrt{h}\), de modo que o gráfico do tempo \(t\) em função de \(w\) também resulte em uma relação linear:
-
-\begin{equation*}
-t(w) = A w + b,
-\end{equation*}
-
-onde \(A = \sqrt{\frac{2}{g}}\) é o coeficiente angular e \(b\) representa novamente o deslocamento fixo do sensor. Em termos de \(h\), a relação original é
-
+No sistema em paralelo as molas estão sujeitas à mesma força peso, o que causa o mesmo deslocamento nas duas. Pela lei de Hooke, a força em cada mola é dada por $F_1 = k_1 x$ e $F_2 = k_2 x$. A força total é a soma das forças individuais, ou seja, $F = F_1 + F_2 = (k_1 + k_2)x$. Assim, a constante elástica equivalente para o sistema em paralelo é dada por
 \begin{equation}
-t(h) = \sqrt{\frac{2}{g}} \sqrt{h} + b.
-\label{eq:linearized_with_sqrt_h}
+    k_p = k_1 + k_2.
+    \label{eq:parallel}
 \end{equation}
-
-Pelo ajuste linear dos dados no gráfico \(t\) vs \(\sqrt{h}\), a aceleração da gravidade pode ser obtida a partir de
+Já no sistema em série, a força é a mesma em ambas as molas, ou seja, $F_T = F_1 = F_2$. O deslocamento total é a soma dos deslocamentos individuais, ou seja, $x_T = x_1 + x_2$. Pela lei de Hooke, temos $x_1 = \frac{F_T}{k_1}$ e $x_2 = \frac{F_T}{k_2}$. Assim, o deslocamento total é dado por
 
 \begin{equation*}
-A = \sqrt{\frac{2}{g}} \implies g = \frac{2}{A^2}.
+    x_T = \frac{F_T}{k_1} + \frac{F_T}{k_2} = F_T\left(\frac{1}{k_1} + \frac{1}{k_2}\right).
 \end{equation*}
+A constante elástica equivalente para o sistema em série é dada por
+\begin{equation}
+    k_s = \frac{F_T}{x_T} = \frac{F_T}{F_T\left(\frac{1}{k_1} + \frac{1}{k_2}\right)} = \frac{1}{\frac{1}{k_1} + \frac{1}{k_2}} = \frac{k_1 k_2}{k_1 + k_2}.
+    \label{eq:series}
+\end{equation}
 
+Com esses resultados, é possível perceber que a constante elástica em paralelo é sempre maior do que a constante elástica de cada mola individualmente, enquanto a constante elástica em série é sempre menor do que a constante elástica de cada mola individualmente.
 
 \section{Discussão e Análise dos Resultados}
 
-A Tabela ~\ref{tab:experimental_data} apresenta os valores experimentais obtidos.
+\subsection{Constante da Mola 1}
+
+A Tabela ~\ref{tab:table_spring1} apresenta os valores experimentais obtidos para a \textit{mola 1} com o sistema \ref{fig:setup1}.
 
 \begin{table}[H]
 \centering
-\begin{tabular}{S[table-format=1.3] S[table-format=1.2]}
+\begin{tabular}{S[table-format=0.3] S[table-format=1.3] S[table-format=1.3]}
 \toprule
-{\textbf{Tempo $t \pm 0,0005$ (s)}} & {\textbf{Altura $h \pm 0,005$ (m)}} \\
+\multicolumn{1}{c}{\shortstack{\textbf{Deslocamento da mola} \\ \textbf{$x \pm 0,005$ (m)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da massa} \\ \textbf{$\Delta m$ (kg)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da força peso} \\ \textbf{$F \pm 0,005$ (N)}}} \\
 \midrule
-    0.115 & 0.05 \\
-    0.141 & 0.08 \\
-    0.168 & 0.12 \\
-    0.186 & 0.15 \\
-    0.203 & 0.18 \\
-    0.212 & 0.20 \\
-    0.257 & 0.30 \\
-    0.280 & 0.36 \\
-    0.370 & 0.64 \\
+0     & 0     & 0,0 \\
+0,025 & 0,05 & 0,489 \\
+0,05  & 0,10 & 0,978 \\
+0,075 & 0,15 & 1,467 \\
+0,1   & 0,20 & 1,956 \\
+0,125 & 0,25 & 2,445 \\
+0,15  & 0,30 & 2,934 \\
 \bottomrule
 \end{tabular}
-\caption{Dados experimentais de tempo e altura com incertezas instrumentais fixas.}
-~\label{tab:experimental_data}
+\caption{Dados experimentais de deslocamento da \textit{mola 1}, variação da massa e força peso.}
+\label{tab:table_spring1}
 \end{table}
 
-\subsection{Gráfico $h$ versus $t$}
-
-O gráfico da altura em função do tempo, ilustrado na Figura ~\ref{graph1_quadratic_fit}, apresenta comportamento parabólico, conforme esperado teoricamente.
+O gráfico da força peso em função do deslocamento da mola, ilustrado na Figura ~\ref{graph1_spring1}, apresenta um comportamento linear, conforme esperado teoricamente.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{media/graph1_quadratic_fit.pdf}
-\caption{Altura em função do tempo de queda.}
-\label{graph1_quadratic_fit}
+\includegraphics[width=0.7\textwidth]{media/graph_spring1}
+\caption{Gráfico da força peso em função do deslocamento da mola 1.}
+\label{graph1_spring1}
 \end{figure}
-
-O ajuste da curva utilizando a equação quadrática \eqref{eq:quadratic} forneceu um valor para a aceleração da gravidade de
-\begin{equation}
-g_1 = 9,56 \pm 0,020 \;\text{m/s}^2
-\end{equation}
 
 \subsubsection{Log do SciDAVis}
 \begin{verbatim}
-[sábado, 21 de março de 2026 00:57:15 Hora oficial do Brasil	Plot: ''Graph1'']
-Non-linear fit of dataset: Table1_h, using function: a/2*x^2+b
+[domingo, 5 de abril de 2026 20:46:14 Hora oficial do Brasil	Plot: ''Graph1'']
+Linear Regression fit of dataset: Table3_F_spring1, using function: A*x+B
 Y standard errors: Unknown
-Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
-From x = 0,115 to x = 0,37
-a  = 9,56088505838644 +/- 0,0200645333473526
-b  = -0,0150434356031264 +/- 0,000630362266036001
+From x = 0 to x = 0,15
+B (y-intercept) = -5,55111512312578e-17 +/- 5,0037075531084e-17
+A (slope) = 19,56 +/- 1,14919000872408e-15
 --------------------------------------------------------------------------------------
-Chi^2 = 8,22150810757668e-06
-R^2 = 0,999988999855355
----------------------------------------------------------------------------------------
-Iterations = 1
-Status = success
+Chi^2 = 1,76338145708095e-30
+R^2 = 1
 ---------------------------------------------------------------------------------------
 \end{verbatim}
 
-\subsection{Linearização $h$ versus $t^2$}
-
-A linearização dos dados permitiu obter uma relação aproximadamente linear, ilustrada no gráfico da Figura ~\ref{graph2_linearization_hoft2}.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{media/graph2_linearization_hoft2.pdf}
-\caption{Gráfico linearizado $h$ em função de $t^2$.}
-\label{graph2_linearization_hoft2}
-\end{figure}
-
-O ajuste linear a partir da equação de linearização ~\eqref{eq:linearized_with_t2} forceneu um valor para a aceleração da gravidade de
+O coeficiente angular do ajuste linear, $A$, representa a constante elástica $k_1$ da \textit{mola 1}, resultando em
 \begin{equation}
-g_2 = 9,56 \pm 0,02 \; \text{m/s}^2
+    k_1 = 19,56 \pm 1,15 \times 10^{-15}  \text{ N/m}
+    \label{k1_linearfit}
 \end{equation}
 
-\subsubsection{Log do SciDAVis}
-\begin{verbatim}
-[sábado, 21 de março de 2026 00:57:48 Hora oficial do Brasil	Plot: ''Graph2'']
-Non-linear fit of dataset: Table1_h, using function: a/2*x+b
-Y standard errors: Unknown
-Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
-From x = 0,013225 to x = 0,1369
-a  = 9,56088505838644 +/- 0,0200645333473526
-b  = -0,0150434356031264 +/- 0,000630362266036001
---------------------------------------------------------------------------------------
-Chi^2 = 8,22150810757668e-06
-R^2 = 0,999988999855355
----------------------------------------------------------------------------------------
-Iterations = 1
-Status = success
----------------------------------------------------------------------------------------
-\end{verbatim}
+\subsection{Constante da Associação em Série}
 
-\subsection{Linearização $t$ versus $\sqrt{h}$}
-
-A linearização dos dados utilizando a raiz quadrada da altura também resultou em uma relação aproximadamente linear, ilustrada no gráfico da Figura ~\ref{graph3_linearization_tofsqrt_h},
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{media/graph3_linearization_tsqrth.pdf}
-\caption{Tempo em função da raiz quadrada da altura de queda.}
-\label{graph3_linearization_tofsqrt_h}
-\end{figure}
-
-que a partir do ajuste linear da equação ~\eqref{eq:linearized_with_sqrt_h} forneceu um valor para a aceleração da gravidade de
-\begin{equation}
-g_3 = 10,23 \pm 0,07 \; \text{m/s}^2
-\end{equation}
-
-\subsubsection{Log do SciDAVis}
-
-\begin{verbatim}
-[sábado, 21 de março de 2026 00:58:58 Hora oficial do Brasil	Plot: ''Graph3'']
-Non-linear fit of dataset: Table1_t, using function: sqrt(2/a)*x + b
-Y standard errors: Unknown
-Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
-From x = 0,223606797749979 to x = 0,8
-a  = 10,2312232033732 +/- 0,07185180503817
-b  = 0,0152478719128495 +/- 0,000746348656072025
---------------------------------------------------------------------------------------
-Chi^2 = 4,2022153033684e-06
-R^2 = 0,999990932323245
----------------------------------------------------------------------------------------
-Iterations = 6
-Status = success
----------------------------------------------------------------------------------------
-\end{verbatim}
-
-\section{Propagação de Incertezas}
-A estimativa da incerteza para uma grandeza derivada $f(x_1, x_2, \dots, x_n)$ é fundamentada na expansão em série de Taylor de primeira ordem, assumindo que as fontes de erro são independentes e aleatórias. A incerteza combinada é dada por
-\begin{equation}
-    \Delta f = \sqrt{
-        \sum_{i=1}^{n} 
-        \left( \frac{\partial f}{\partial x_i} \Delta x_i \right)^2
-        }
-\end{equation}
-
-\subsection{Análise por Ponto Experimental (Cálculo Indireto)}
-Para o cálculo de $g$ em cada ponto individual utilizando a relação $g = 2h/t^2$, a propagação das incertezas instrumentais ($\Delta h = \SI{0,005}{\meter}$ e $\Delta t = \SI{0,0005}{\second}$) resulta na incerteza relativa
-\begin{equation}
-    \frac{\Delta g}{g} = 
-    \sqrt{
-        \left(\frac{\Delta h}{h}\right)^2 + 
-        \left(2 \frac{\Delta t}{t}\right)^2
-        }
-        \label{eq:incerteza_relativa}
-\end{equation}
-Esta expressão revela que o erro no tempo é quadraticamente mais impactante que o erro na altura. Apesar disso, para alturas pequenas, a incerteza relativa é dominada pelo erro na altura, enquanto para alturas maiores, o erro no tempo torna-se mais significativo. Para a menor altura medida o erro relativo é
-\begin{equation*}
-    \frac{\Delta g}{g} = \sqrt{
-        \left(\frac{0{,}005}{0{,}05}\right)^2 + 
-        \left(2 \frac{0{,}0005}{0{,}115}\right)^2
-        } \approx 0{,}1
-\end{equation*}
-enquanto para a maior altura o erro relativo é
-\begin{equation*}
-    \frac{\Delta g}{g} = \sqrt{
-        \left(\frac{0{,}005}{0{,}64}\right)^2 + 
-        \left(2 \frac{0{,}0005}{0{,}370}\right)^2
-        } \approx 0{,}01
-\end{equation*}
-indicando que a incerteza relativa diminui significativamente com o aumento da altura.
+A Tabela ~\ref{tab:table_ass_series} apresenta os valores experimentais obtidos para a associação em série das molas.
 
 \begin{table}[H]
 \centering
-\caption{Cálculo da aceleração da gravidade local e incertezas associadas para cada ponto experimental.}
-\label{tab:calculo_ponto_a_ponto}
-\begin{tabular}{c c S[table-format=1.2, table-figures-uncertainty=1]}
+\begin{tabular}{S[table-format=0.3] S[table-format=1.3] S[table-format=1.3]}
 \toprule
-\textbf{Altura $h$ (m)} & \textbf{Tempo $t$ (s)} & {\textbf{Aceleração $g \pm \Delta g$ (m/s$^2$)}} \\
+\multicolumn{1}{c}{\shortstack{\textbf{Deslocamento da mola} \\ \textbf{$x \pm 0,005$ (m)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da massa} \\ \textbf{$\Delta m$ (kg)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da força peso} \\ \textbf{$F \pm 0,005$ (N)}}} \\
 \midrule
-0,05 & 0,115 & 9.45 \pm 0.95 \\
-0,08 & 0,141 & 8.05 \pm 0.55 \\
-0,12 & 0,168 & 8.50 \pm 0.40 \\
-0,15 & 0,186 & 8.66 \pm 0.30 \\
-0,18 & 0,203 & 8.73 \pm 0.25 \\
-0,20 & 0,212 & 8.89 \pm 0.20 \\
-0,30 & 0,257 & 9.08 \pm 0.15 \\
-0,36 & 0,280 & 9.18 \pm 0.10 \\
-0,64 & 0,370 & 9.34 \pm 0.05 \\
+0,77  & 0,0  & 0,00 \\
+0,807 & 0,01 & 0,0978 \\
+0,84  & 0,02 & 0,1956 \\
+0,878 & 0,03 & 0,2934 \\
+0,916 & 0,04 & 0,3912 \\
+0,952 & 0,05 & 0,489 \\
 \bottomrule
 \end{tabular}
+\caption{Dados experimentais da associação em série}
+\label{tab:table_ass_series}
 \end{table}
 
-\noindent
-A análise da Tabela~\ref{tab:calculo_ponto_a_ponto} evidencia a relação direta entre a magnitude das grandezas medidas e a precisão do resultado derivado. Nota-se que a incerteza absoluta $\Delta g$ reduz-se drasticamente de $0{,}95\,\text{m/s}^2$ para $0{,}05\,\text{m/s}^2$ à medida que a altura de queda aumenta. Este comportamento valida a análise teórica da Equação~\eqref{eq:incerteza_relativa}, demonstrando que o sistema torna-se mais robusto frente às incertezas instrumentais fixas ($\Delta h$ e $\Delta t$) em escalas maiores. 
+O gráfico da força peso em função do deslocamento da associação em série, ilustrado na Figura ~\ref{graph_series_ass}, apresenta um comportamento linear, conforme esperado teoricamente.
 
-Ademais, a tendência de crescimento nos valores calculados de $g$ aponta para a existência de um erro sistemático de tempo (atraso no desengate do eletroímã), cujo impacto percentual é diluído em trajetórias mais longas. Esta observação justifica a superioridade estatística do ajuste global realizado via software, que isola esse \textit{offset} através do parâmetro de intercepto, em detrimento da média aritmética simples dos pontos experimentais.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{media/graph_series_ass}
+\caption{Gráfico da força peso em função do deslocamento da associação em série.}
+\label{graph_series_ass}
+\end{figure}
+
+\subsubsection{Log do SciDAVis}
+\begin{verbatim}
+[domingo, 5 de abril de 2026 20:46:25 Hora oficial do Brasil	Plot: ''Graph5'']
+Linear Regression fit of dataset: Table3_F_series, using function: A*x+B
+Y standard errors: Unknown
+From x = 0,77 to x = 0,952
+B (y-intercept) = -2,0648654628414 +/- 0,0218674932954764
+A (slope) = 2,68374835890924 +/- 0,0253463605407724
+--------------------------------------------------------------------------------------
+Chi^2 = 5,96991929061857e-05
+R^2 = 0,99988651771791
+---------------------------------------------------------------------------------------
+\end{verbatim}
+
+O coeficiente angular do ajuste linear, $A$, representa a constante elástica $k_s$ da associação em série, resultando em
+\begin{equation}
+    k_s = 2,68 \pm 0,02 \text{ N/m}
+    \label{k_series_linearfit}
+\end{equation}
+
+\subsection{Constante da Associação em Paralelo}
+
+A Tabela ~\ref{tab:table_ass_parallel} apresenta os valores experimentais obtidos para a associação em paralelo das molas.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{S[table-format=0.3] S[table-format=1.3] S[table-format=1.3]}
+\toprule
+\multicolumn{1}{c}{\shortstack{\textbf{Deslocamento da mola} \\ \textbf{$x \pm 0,005$ (m)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da massa} \\ \textbf{$\Delta m$ (kg)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da força peso} \\ \textbf{$F \pm 0,005$ (N)}}} \\
+\midrule
+0	 & 0	 & 0,0 \\
+0,019 & 0,05 & 0,489 \\
+0,040 & 0,10 & 0,978 \\
+0,063 & 0,15 & 1,467 \\
+0,084 & 0,20 & 1,956 \\
+0,105 & 0,25 & 2,445 \\
+0,120 & 0,30 & 2,934 \\
+\bottomrule
+\end{tabular}
+\caption{Dados experimentais da associação em paralelo}
+\label{tab:table_ass_parallel}
+\end{table}
+
+O gráfico da força peso em função do deslocamento da associação em paralelo, ilustrado na Figura ~\ref{graph_parallel_ass}, apresenta um comportamento linear, conforme esperado teoricamente.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{media/graph_paralel_ass}
+\caption{Gráfico da força peso em função do deslocamento da associação em paralelo.}
+\label{graph_parallel_ass}
+\end{figure}
+
+\subsubsection{Log do SciDAVis}
+\begin{verbatim}
+[domingo, 5 de abril de 2026 20:46:29 Hora oficial do Brasil	Plot: ''Graph2'']
+Linear Regression fit of dataset: Table3_F_Paralel, using function: A*x+B
+Y standard errors: Unknown
+From x = 0 to x = 0,126
+B (y-intercept) = 0,0284954442429732 +/- 0,014582564522473
+A (slope) = 23,0424070716229 +/- 0,193182258947935
+--------------------------------------------------------------------------------------
+Chi^2 = 0,00235218753399807
+R^2 = 0,99989190320106
+---------------------------------------------------------------------------------------
+\end{verbatim}
+
+O coeficiente angular do ajuste linear, $A$, representa a constante elástica $k_p$ da associação em paralelo, resultando em
+\begin{equation}
+    k_p = 23,04 \pm 0,19 \text{ N/m}
+    \label{k_parallel_linearfit}
+\end{equation}
+
+\subsection{Constante da Mola 2}
+
+A Tabela ~\ref{tab:table_spring2} apresenta os valores experimentais obtidos para a \textit{mola 2} com o sistema \ref{fig:setup1}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{S[table-format=0.3] S[table-format=1.3] S[table-format=1.3]}
+\toprule
+\multicolumn{1}{c}{\shortstack{\textbf{Posição da mola} \\ \textbf{$x \pm 0,005$ (m)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da massa} \\ \textbf{$\Delta m$ (kg)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Variação da força peso} \\ \textbf{$F \pm 0,005$ (N)}}} \\
+\midrule
+0,544 & 0 &	0 \\
+0,695 &	0,05 & 0,489 \\
+0,848 &	0,10 & 0,978 \\
+0,878 &	0,11 & 1,0758 \\
+0,881 &	0,111 & 1,08558 \\
+\bottomrule
+\end{tabular}
+\caption{Dados experimentais da \textit{mola 2}, variação da massa e força peso.}
+\label{tab:table_spring2}
+\end{table}
 
 
-\subsection{Incerteza nos Modelos de Regressão}
-Diferente da propagação de incertezas instrumentais isoladas, os ajustes numéricos via software utilizam o método de mínimos quadrados para minimizar os resíduos estatísticos. A incerteza reportada para cada parâmetro provém da diagonal da matriz de covariância do ajuste.
+O gráfico da força peso em função do deslocamento da mola, ilustrado na Figura ~\ref{graph1_spring2}, apresenta um comportamento linear, conforme esperado teoricamente.
 
-\subsubsection{Modelos $h$ versus $t$ e $h$ versus $t^2$}
-Para estes ajustes, as funções foram parametrizadas diretamente como $f(t) = \frac{a}{2}t^2 + b$ e $f(z) = \frac{a}{2}z + b$. Nestas definições, o parâmetro $a$ mapeia diretamente a aceleração da gravidade $g$. Portanto, a incerteza padrão obtida nos logs do SciDAVis já representa a incerteza da gravidade
-\begin{equation*}
-    g_{1,2} = 9{,}56 \pm 0{,}02 \text{ m/s}^2
-\end{equation*}
-A igualdade dos resultados entre os gráficos 1 e 2 confirma a consistência estatística, uma vez que a linearização $t^2$ não altera a natureza dos resíduos em relação ao ajuste quadrático original.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{media/graph_spring2}
+\caption{Gráfico da força peso em função do deslocamento da mola 2.}
+\label{graph1_spring2}
+\end{figure}
 
-\subsubsection{Modelo $t$ vs $\sqrt{h}$}
-No ajuste do tempo em função da raiz quadrada da altura, utilizou-se a função $f(w) = \sqrt{\frac{2}{a}}w + b$. O software obteve um valor para o coeficiente angula $a$ e sua incerteza de
-\begin{equation*}
-    g_3 = 10{,}23 \pm 0{,}07 \text{ m/s}^2
-\end{equation*}
-O aumento na incerteza absoluta ($\Delta g_3$) e o desvio em relação ao valor esperado podem ser atribuídos à transformação não-linear da variável independente ($\sqrt{h}$), que tende a amplificar o impacto de erros sistemáticos de posição para valores baixos de altura
+\subsubsection{Log do SciDAVis}
+\begin{verbatim}
+[domingo, 5 de abril de 2026 20:46:32 Hora oficial do Brasil	Plot: ''Graph4'']
+Linear Regression fit of dataset: Table3_F_spring2, using function: A*x+B
+Y standard errors: Unknown
+From x = 0,544 to x = 0,881
+B (y-intercept) = -1,74944933241747 +/- 0,00403552743533766
+A (slope) = 3,21779164380846 +/- 0,00517111044550637
+--------------------------------------------------------------------------------------
+Chi^2 = 6,96053245342771e-06
+R^2 = 0,99999802897879
+---------------------------------------------------------------------------------------
+\end{verbatim}
+
+O coeficiente angular do ajuste linear, $A$, representa a constante elástica $k_2$ da \textit{mola 2}, resultando em
+\begin{equation}
+    k_2 = 3,21 \pm 0,005 \text{ N/m}
+    \label{eq:k2_linearfit}
+\end{equation}
+
+
+\subsection{Discussão dos Resultados}
+
+Assim como esperado teoricamente, os gráficos da força peso em função do deslocamento da mola 1, da associação em série e da associação em paralelo apresentaram um comportamento linear, o que é consistente com a Lei de Hooke \eqref{eq:hooke}. Os ajustes lineares realizados para cada configuração permitiram a determinação das constantes elásticas $k_1$, $k_s$, $k_p$ e $k_2$ a partir dos coeficientes angulares dos gráficos. Confirmando a relação as relações de que a associação em paralelo resulta em uma constante elástica maior do que a constante elástica de cada mola individualmente, enquanto a associação em série resulta em uma constante elástica menor do que a constante elástica de cada mola individualmente.
 
 \section{Análise dos Resultados}
 
+
 \subsection{Concordância com o Valor de Referência}
 
-Para validar a acurácia experimental, utilizou-se o valor de referência do Observatório Nacional para Belo Horizonte \citep{on_gravimetria_bh_1981}:
-\begin{equation}
-    g_{bh} = 9{,}7838163 \pm 4\times10^{-7}\,\text{m/s}^2
-\end{equation}
+Utilizando os modelos das equações \eqref{eq:series} e \eqref{eq:parallel}, com base nos resultados obtidos experimentalmente para as constantes elásticas $k_1$, $k_s$ e $k_p$, foi possível calcular a constante elástica $k_2$ da segunda mola, e comparar com o valor obtido diretamente do ajuste linear do setup da figura \ref{fig:setup1} para $k_2$.
 
-O Erro Relativo Percentual ($E_{rel}$) obtido foi de:
-\begin{equation}
-    E_{rel} = \frac{|g_{exp} - g_{bh}|}{g_{bh}} \times 100\% \approx 2{,}25\%
-\end{equation}
+Pela equação \eqref{eq:parallel}, a constante elástica $k_2$ da segunda mola pode ser calculada a partir da associação em paralelo, resultando em
+\begin{equation*}
+    k_p = k_1 + k_2 \implies k_2 = k_p - k_1 \implies 23,00 - 19,56 = 3,44 \text{ N/m}
+\end{equation*}
+
+e pela equação \eqref{eq:series}, a constante elástica $k_2$ da segunda mola pode ser calculada a partir da associação em série, resultando em
+\begin{equation*}
+    k_s = \frac{k_1 k_2}{k_1 + k_2} \implies k_2 = \frac{k_s k_1}{k_1 - k_s} \implies \frac{2,68 \times 19,56}{19,56 - 2,68} = 3,105 \text{ N/m}
+\end{equation*}
+Em comparação com o valor obtido diretamente do ajuste linear do setup da figura \ref{fig:setup1} para $k_2$ \eqref{eq:k2_linearfit}, que resultou em $3,21 \pm 0,005$ N/m, é possível perceber que os valores calculados a partir das associações em série e paralelo apresentam uma boa concordância, com um desvio de aproximado de $7\%$ para o valor calculado a partir da associação em paralelo e um desvio aproximado de $3\%$ para o valor calculado a partir da associação em série.
 
 \section{Conclusão}
 
-O experimento permitiu a determinação da aceleração da gravidade, resultando em $g = 9{,}56 \pm 0{,}02$ m/s$^2$. A linearização pelo método $h$ vs $t^2$ mostrou-se a mais robusta, apresentando resíduos menores e maior estabilidade numérica. 
-
-Contudo, a análise de concordância revelou um desvio de $2{,}25\%$ em relação ao valor de referência de Belo Horizonte. Conclui-se que, para aplicações de engenharia que exijam maior acurácia, o modelo deve ser refinado para compensar o tempo de resposta dos sensores e a resistência do meio, extrapolando os limites da cinemática ideal de queda livre.
+O experimento permitiu a determinação das constantes elásticas de duas molas, bem como a análise das associações em série e paralelo. Os resultados obtidos para as constantes elásticas $k_1$, $k_s$, $k_p$ e $k_2$ apresentaram uma boa concordância com os valores esperados teoricamente, e os cálculos realizados a partir das associações em série e paralelo para determinar $k_2$ também apresentaram uma boa concordância com o valor obtido diretamente do ajuste linear do setup da figura \ref{fig:setup1} para $k_2$.
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
