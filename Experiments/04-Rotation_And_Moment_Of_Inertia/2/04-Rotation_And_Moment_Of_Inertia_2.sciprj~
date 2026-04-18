@@ -16,7 +16,7 @@ Spacing	5	5
 LayerCanvasSize	428	271
 Alignement	0	0
 <graph>
-ggeometry	12	6	1525	788
+ggeometry	5	7	1531	789
 PlotTitle	Posição Angular (Θ) <i>Vs.</i> Tempo (<i>t</i> ) - DataSet 2	#ff000000	4
 <Antialiasing>1</Antialiasing>
 Background	#ffffffff	255
@@ -41,13 +41,12 @@ AxesColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesNumberColors	#ff000000	#ff000000	#ff000000	#ff000000
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffffff	255
-curve	Table1_1	Table1_2	1	0	#ff000000	0	1	13	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	85	1
-FunctionCurve	0,NonLinearFit1,x,0,1.7	100			0	1	#ffff0000	0	6	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	-1404085984	535	1
+curve	Table1_1	Table1_2	1	0	#ff000000	0	1	7	1	#ff000000	#ff000000	0	#ff000000	0	1	0	64		2	0	0	85	1
+FunctionCurve	0,NonLinearFit1,x,0,1.7	100			0	1	#ffff0000	0	3	0	0	#ff000000	#ffa0a0a4	0	#ff000000	0	1	0	64		2	0	440096320	535	1
 <formula>
 a=14.6104035408371
 
 a*x^2
-
 
 
 
@@ -64,7 +63,7 @@ TicksLength	5	9
 DrawAxesBackbone	1
 AxesLineWidth	1
 LabelsRotation	0	0
-<legend>	-0.378808864265928	45.9351988217968	MS Shell Dlg 2	29	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Dados Experimentais - DataSet 2	\c{2}Ajuste Quadrático:<b> y = ax<sup>2</sup></b></legend>
+<legend>	-0.444444444444444	48.1619256017505	MS Shell Dlg 2	17	50	0	0	0	#ff000000	1	0	#00ffffff	0	\c{1}Dados Experimentais - DataSet 2	\c{2}Ajuste Quadrático:<b> y = ax<sup>2</sup></b></legend>
 </graph>
 </multiLayer>
 <log>

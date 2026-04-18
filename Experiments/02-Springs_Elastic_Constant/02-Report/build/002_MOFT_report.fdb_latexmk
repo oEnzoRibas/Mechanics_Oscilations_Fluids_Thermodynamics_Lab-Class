@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/002_MOFT_report"] 1775436237.91477 "build/002_MOFT_report.aux" "build/002_MOFT_report.bbl" "build/002_MOFT_report" 1775436240.6811 0
+["bibtex build/002_MOFT_report"] 1776521787.66235 "build/002_MOFT_report.aux" "build/002_MOFT_report.bbl" "build/002_MOFT_report" 1776521790.5441 0
   "./refs.bib" 1775427857 1455 188f109b745f88a8bfe06b508435e826 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "build/002_MOFT_report.aux" 1775436239 6393 13a9c9b7f8093ebc29fc7af9017c871c "pdflatex"
+  "build/002_MOFT_report.aux" 1776521789 6367 4b81e04449cb69f4fb649b34cbb81675 "pdflatex"
   (generated)
   "build/002_MOFT_report.bbl"
   "build/002_MOFT_report.blg"
   (rewritten before read)
-["pdflatex"] 1775436238.22269 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/02-Springs_Elastic_Constant/02-Report/002_MOFT_report.tex" "build/002_MOFT_report.pdf" "002_MOFT_report" 1775436240.68186 0
-  "002_MOFT_report.tex" 1775436237 20181 6404b8bb9ab856c5df910e155efb8bd6 ""
+["pdflatex"] 1776521787.98187 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/02-Springs_Elastic_Constant/02-Report/002_MOFT_report.tex" "build/002_MOFT_report.pdf" "002_MOFT_report" 1776521790.5448 0
+  "002_MOFT_report.tex" 1776521781 20155 b1897240a80d5a055d7cc58ea96b0ad4 ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1775166245 318609 887f42e5a574e613a23539521b004dd4 ""
   "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769105487 13333528 ac686ffacc73593e2f24978542ba9c29 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -83,9 +83,9 @@
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1761901070 1618 30b01152766afcef2ed8f904cfdd3cc6 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-brazil.trsl" 1644048522 5992 3b92a9a1524d0f6a211951f4106f778c ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "build/002_MOFT_report.aux" 1775436239 6393 13a9c9b7f8093ebc29fc7af9017c871c "pdflatex"
-  "build/002_MOFT_report.bbl" 1775436238 708 aeeb4c42fd85d0f0fd34c5b67728da20 "bibtex build/002_MOFT_report"
-  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/02-Springs_Elastic_Constant/02-Report/002_MOFT_report.tex" 1775436237 20181 6404b8bb9ab856c5df910e155efb8bd6 ""
+  "build/002_MOFT_report.aux" 1776521789 6367 4b81e04449cb69f4fb649b34cbb81675 "pdflatex"
+  "build/002_MOFT_report.bbl" 1776521787 708 aeeb4c42fd85d0f0fd34c5b67728da20 "bibtex build/002_MOFT_report"
+  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/02-Springs_Elastic_Constant/02-Report/002_MOFT_report.tex" 1776521781 20155 b1897240a80d5a055d7cc58ea96b0ad4 ""
   "media/Logo_CEFET-MG.png" 1774095351 166646 dd2b4d6ce3369b6abe7ea100c1458b1f ""
   "media/graph_paralel_ass.pdf" 1775432896 15894 475564849c6061aec27008b00e12e22f ""
   "media/graph_series_ass.pdf" 1775432889 15633 332004a04241a20c5e3f87c3da82e2bd ""

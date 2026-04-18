@@ -5,9 +5,9 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[CEFET-MG(2026)]{Roteiro_Experimento_02}
+\bibitem[CEFET-MG(2026)]{Roteiro_Experimento_04}
 Departamento de~Física CEFET-MG.
-\newblock Constantes elásticas de molas.
+\newblock Determinação do momento de inércia de um corpo rígido.
 \newblock Documento disponibilizado aos alunos do curso de Física Mecânica,
   Oscilações, Fluidos e Termodinâmica, 2026.
 
