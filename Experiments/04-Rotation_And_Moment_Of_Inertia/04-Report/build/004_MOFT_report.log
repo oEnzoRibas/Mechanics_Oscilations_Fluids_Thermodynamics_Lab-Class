@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  18 APR 2026 19:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  18 APR 2026 19:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -763,8 +763,13 @@ File: media/graphs/g1_dataset1.pdf Graphic file (type pdf)
 Package pdftex.def Info: media/graphs/g1_dataset1.pdf  used on input line 609.
 (pdftex.def)             Requested size: 409.71692pt x 209.23938pt.
 [15 <./media/graphs/r1_dataset1.pdf>]
-Overfull \hbox (67.65488pt too wide) in paragraph at lines 631--631
-[]\OT1/ntxtt/m/n/12 [sexta-feira, 17 de abril de 2026 23:38:00 Hora oficial do Brasil Plot: ''Graph1''][] 
+Overfull \hbox (36.15494pt too wide) in paragraph at lines 631--631
+[]\OT1/ntxtt/m/n/12 [s[]abado, 18 de abril de 2026 12:05:46 Hora oficial do Brasil Plot: ''Graph2''][] 
+ []
+
+
+Overfull \hbox (42.45493pt too wide) in paragraph at lines 631--631
+[]\OT1/ntxtt/m/n/12 Non-linear fit of dataset: Table2_Angular Position, using function: a*x^2 + b*x[] 
  []
 
 
@@ -788,35 +793,30 @@ File: media/graphs/r2_dataset2.pdf Graphic file (type pdf)
 Package pdftex.def Info: media/graphs/r2_dataset2.pdf  used on input line 637.
 (pdftex.def)             Requested size: 409.71692pt x 211.70207pt.
 [16 <./media/graphs/g1_dataset1.pdf>]
-Overfull \hbox (36.15494pt too wide) in paragraph at lines 660--660
-[]\OT1/ntxtt/m/n/12 [s[]abado, 18 de abril de 2026 12:05:46 Hora oficial do Brasil Plot: ''Graph2''][] 
+Overfull \hbox (67.65488pt too wide) in paragraph at lines 658--658
+[]\OT1/ntxtt/m/n/12 [sexta-feira, 17 de abril de 2026 23:38:00 Hora oficial do Brasil Plot: ''Graph1''][] 
  []
 
 
-Overfull \hbox (42.45493pt too wide) in paragraph at lines 660--660
-[]\OT1/ntxtt/m/n/12 Non-linear fit of dataset: Table2_Angular Position, using function: a*x^2 + b*x[] 
- []
-
-
-Overfull \hbox (86.55484pt too wide) in paragraph at lines 660--660
+Overfull \hbox (86.55484pt too wide) in paragraph at lines 658--658
 []\OT1/ntxtt/m/n/12 --------------------------------------------------------------------------------------[] 
  []
 
 
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 660--660
+Overfull \hbox (92.85483pt too wide) in paragraph at lines 658--658
 []\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
  []
 
 
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 660--660
+Overfull \hbox (92.85483pt too wide) in paragraph at lines 658--658
 []\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
  []
 
 [17 <./media/graphs/r2_dataset2.pdf>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 709.
+(Font)              scaled to size 8.8pt on input line 707.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 709.
+(Font)              scaled to size 6.6pt on input line 707.
  [18] [19] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.bbl) [20] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -836,7 +836,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  74i,13n,80p,1074b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.pdf" (21 pages, 1495265 bytes).
+Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.pdf" (21 pages, 1495270 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
