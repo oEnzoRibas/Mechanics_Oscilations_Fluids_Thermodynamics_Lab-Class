@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex build/004_MOFT_report"] 1776551402.06348 "build/004_MOFT_report.aux" "build/004_MOFT_report.bbl" "build/004_MOFT_report" 1776551407.62936 0
+["bibtex build/004_MOFT_report"] 1776551707.49635 "build/004_MOFT_report.aux" "build/004_MOFT_report.bbl" "build/004_MOFT_report" 1776551712.864 0
   "./refs.bib" 1776528762 1482 55991920e10ed116c50da14e8c7e7719 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/plainnat.bst" 1284455456 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "build/004_MOFT_report.aux" 1776551406 8446 605b9c787bd7edc70597344eaa10681a "pdflatex"
+  "build/004_MOFT_report.aux" 1776551711 8446 605b9c787bd7edc70597344eaa10681a "pdflatex"
   (generated)
   "build/004_MOFT_report.bbl"
   "build/004_MOFT_report.blg"
   (rewritten before read)
-["pdflatex"] 1776551402.44662 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/04-Rotation_And_Moment_Of_Inertia/04-Report/004_MOFT_report.tex" "build/004_MOFT_report.pdf" "004_MOFT_report" 1776551407.63022 0
-  "004_MOFT_report.tex" 1776551401 40357 3d606d84d38edb351c515edc2a550e0e ""
+["pdflatex"] 1776551707.83388 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/04-Rotation_And_Moment_Of_Inertia/04-Report/004_MOFT_report.tex" "build/004_MOFT_report.pdf" "004_MOFT_report" 1776551712.86489 0
+  "004_MOFT_report.tex" 1776551706 40293 8bd55cb682d8c3340ace48e660b33cf9 ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776545782 360448 731ae4642188da39b5a97047d41cf13d ""
   "C:/Users/maria/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769105487 13333528 ac686ffacc73593e2f24978542ba9c29 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1736607166 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -136,9 +136,9 @@
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "build/004_MOFT_report.aux" 1776551406 8446 605b9c787bd7edc70597344eaa10681a "pdflatex"
-  "build/004_MOFT_report.bbl" 1776551402 735 2f3d7f3e33e25f71890b42ba4db69c9a "bibtex build/004_MOFT_report"
-  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/04-Rotation_And_Moment_Of_Inertia/04-Report/004_MOFT_report.tex" 1776551401 40357 3d606d84d38edb351c515edc2a550e0e ""
+  "build/004_MOFT_report.aux" 1776551711 8446 605b9c787bd7edc70597344eaa10681a "pdflatex"
+  "build/004_MOFT_report.bbl" 1776551707 735 2f3d7f3e33e25f71890b42ba4db69c9a "bibtex build/004_MOFT_report"
+  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/04-Rotation_And_Moment_Of_Inertia/04-Report/004_MOFT_report.tex" 1776551706 40293 8bd55cb682d8c3340ace48e660b33cf9 ""
   "media/Logo_CEFET-MG.png" 1774095351 166646 dd2b4d6ce3369b6abe7ea100c1458b1f ""
   "media/graphs/g1_dataset1.pdf" 1776551316 40609 4467367bd0c90a950b2c5c572be8f10b ""
   "media/graphs/r1_dataset1.pdf" 1776551330 40775 5652e990fbd706e73d254876a7ef420e ""
