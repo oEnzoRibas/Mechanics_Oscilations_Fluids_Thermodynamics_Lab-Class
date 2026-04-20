@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  18 APR 2026 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  19 APR 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -828,15 +828,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13688 strings out of 467870
- 279400 string characters out of 5418355
+ 13689 strings out of 467870
+ 279408 string characters out of 5418355
  758780 words of memory out of 5000000
- 42341 multiletter control sequences out of 15000+600000
+ 42342 multiletter control sequences out of 15000+600000
  663321 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,80p,1074b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.pdf" (21 pages, 1495270 bytes).
+Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\04-Rotation_And_Moment_Of_Inertia\04-Report\build\004_MOFT_report.pdf" (21 pages, 1495542 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
