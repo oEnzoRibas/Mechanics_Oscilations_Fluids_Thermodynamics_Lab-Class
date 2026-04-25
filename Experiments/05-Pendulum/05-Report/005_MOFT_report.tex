@@ -1,0 +1,224 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{indentfirst}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+\usepackage[authoryear]{natbib}
+
+\geometry{margin=2.5cm}
+
+\title{Determinação da aceleração da gravidade a partir do movimento oscilatório de um pêndulo simples.}
+\author{Enzo Rocha Leite Diniz Ribas \\ Centro Federal de Educação Tecnológica de Minas Gerais}
+\date{\today}
+
+\begin{document}
+\begin{titlepage}
+
+\begin{center}
+
+\includegraphics[width=4cm]{media/Logo_CEFET-MG.png}
+
+\Large
+Centro Federal de Educação Tecnológica de Minas Gerais
+
+\vspace{1cm}
+
+\Large
+Curso de Engenharia Mecânica
+
+\vspace{2cm}
+
+\Huge
+Determinação da aceleração da gravidade a partir do movimento oscilatório de um pêndulo simples.
+
+\vspace{3cm}
+
+\begin{flushright}
+\Large
+Mecânica, Oscilações, Fluidos e Termodinâmica, Turma T03 \\
+Prof. Dr. Mauro Lucio Lobão Iannini
+\end{flushright}
+
+\vspace{3cm}
+
+\large
+Enzo Rocha Leite Diniz Ribas (Eng. Mecânica - 20253002819)\\
+Gabriel Resende Amorim Oliveira (Eng. Elétrica - 20233014438)\\
+Leandro Césari e Silva Barros (Eng. Mecânica - 20253005104)\\
+
+\vfill
+
+\Large
+Belo Horizonte
+
+\Large
+\the\year/{1}
+
+\end{center}
+
+\end{titlepage}
+
+\section{Introdução}
+
+O roteiro do experimento \citep{Roteiro_Experimento_05} propõe a determinação da aceleração da gravidade a partir do movimento oscilatório de um pêndulo simples.
+
+\section{Fundamentação Teórica}
+O momento de inércia de um corpo rígido em relação a um eixo de rotação, tem um papel análogo ao da massa no movimento de translação, isto é, representa a \textit{inércia de rotação} \citep{moyses2013}. Para corpos de densidade de massa constante, o momento de inércia é dado por
+\begin{equation}
+    I = \int_{\mathcal{Q}} r^2 \, dm,
+    \label{eq:moment_inertia}
+\end{equation}
+em que \textit{r} é a distância do elemento de massa $dm$ ao eixo de rotação e $\mathcal{Q}$ é região ocupada pelo corpo no espaço. No caso de um sólido tridimensional, seu momento de inércia é dado por
+\begin{equation}
+    I = \iiint_{V} r^2 \, \rho(r) dV,
+    \label{eq:moment_inertia}
+\end{equation} 
+em que \textit{V} é a região do volume do corpo, e $\rho$ é a sua densidade de massa em função da posição.
+
+O disco utilizado no experimento é um corpo rígido de densidade de massa constante, e seu momento de inércia em relação ao eixo de rotação é dado por
+\begin{equation}
+    I_{disco} = \frac{1}{2} m_{disco} \times r_{disco}^2,
+    \label{eq:moment_inertia_disk}
+\end{equation}~\cite{moyses2013}.
+
+Com base no diagrama de corpo livre do sistema (Figura~\ref{fig:free_body_diagram}), é possível encontrar uma expressão que relacione o momento de inércia do sistema com a aceleração angular $\alpha$ do disco, a massa pendente $m$, a aceleração da gravidade $g$ e o raio da polia $r_p$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{media/photos/pendulo.png}
+\caption{Sistema de queda utilizado para a determinação do momento de inércia. Fonte: Autor}
+\label{fig:free_body_diagram}
+\end{figure}
+
+Assumindo para cima como a direção positiva, e o sentido antihorário como o sentido positivo de rotação, além disso considerando que o fio não escorrega na polia, pela segunda lei de Newton temos:
+
+\begin{align}
+    \vec{F_{net}} &= m \vec{a} \nonumber \\
+    \implies  \vec{T} + \vec{P} &= m\vec{a} \nonumber \\
+    \vec{T} - mg\hat{\jmath} &= m\vec{a} \nonumber \\
+    T - mg &= ma_y \label{eq:net_force}
+\end{align}
+
+O torque $\vec{\uptau_T}$ causado pela força de tensão $\vec{T}$ na polia é dado por
+\begin{align}
+    \vec{\uptau_T} &= \vec{r_p} \times \vec{T} \nonumber \\
+    &= r_p T \hat{k}, \label{eq:torque}
+\end{align}
+
+Pela segunda lei de Newton para rotação, temos
+\begin{equation}
+    \vec{\uptau_{net}} = I \vec{\alpha}.
+\end{equation}
+
+Substituindo a expressão do torque $\vec{\uptau_T}$ da equação \eqref{eq:torque} na equação da segunda lei de Newton para rotação, temos
+
+\begin{align}
+    \vec{\uptau_T} &= I \vec{\alpha} \nonumber \\
+    r_p T \hat{k} &= I \alpha \hat{k} \nonumber \\
+    r_p T &= I \alpha. \label{eq:net_torque}
+\end{align}
+
+A aceleração tangecial do disco é dada por
+\begin{align}
+    \vec{a_t} &= \vec{\alpha} \times \vec{r_p} \nonumber \\
+    &= \alpha \hat{k} \times -r_p \hat{\imath} \nonumber \\
+    &= -\alpha r_p \hat{\jmath}. \label{eq:tangential_acceleration}
+\end{align}
+
+Como a aceleração tangencial do disco é igual à aceleração da massa pendente, ou seja, $a_t = a_y$, e isolando a tração $T$ da equação \eqref{eq:net_torque} podemos substituir $T$ e $a_t$ na equação \eqref{eq:net_force}, assim temos
+
+\begin{align}
+    T &= \frac{I \alpha}{r_p} \nonumber \\
+    \implies \frac{I \alpha}{r_p} - mg &= m (-\alpha r_p) \nonumber \\
+    - mg &= m (-\alpha r_p) - \frac{I \alpha}{r_p}  \nonumber \\
+    mg &= m (\alpha r_p) + \frac{I \alpha}{r_p}  \nonumber \\
+    mg &= \alpha r_p \left(m + \frac{I}{r_p^2}\right) \nonumber \\
+    \frac{1}{r_p}\frac{mg}{\left(m + \frac{I}{r_p^2}\right)} &= \alpha \nonumber \\
+    \implies \alpha &= \frac{1}{r_p}\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)} \label{eq:angular_acceleration}
+\end{align}
+
+Sabemos que a aceleração angular $\alpha$ é a derivada de segunda ordem da posição angular $\theta$ do disco em função do tempo, ou seja, $\alpha = \frac{d^2\theta}{dt^2}$.
+
+\begin{align}
+    \alpha = \frac{d^2\theta}{dt^2} = \frac{d}{dt}\frac{d\theta}{dt} &= \frac{d\omega}{dt} \nonumber \\
+    \int_0^t \alpha \, dt &= \int_{\omega(0)}^{\omega(t)} d\omega \nonumber \\
+    \alpha t &= \omega(t) - \omega(0) \nonumber \\ 
+    \implies \omega(t) &= \omega(0) + \alpha t \nonumber \\
+    \int_0^t \omega(t) \, dt &= \int_{\theta(0)}^{\theta(t)} d\theta \nonumber\\
+    \int_0^t \left(\omega(0) + \alpha t\right) dt &= \theta(t) - \theta(0) \nonumber \\
+    \implies \theta(t) &= \theta(0) + \omega(0)t + \frac{1}{2}\alpha t^2 \nonumber
+\end{align}
+
+Considerando as condições iniciais de $\theta(0) = 0$ e $\frac{d\theta}{dt}(0) = 0$, a posição angular do disco em função do tempo é dada por
+\begin{equation}
+    \theta(t) = \frac{1}{2}\alpha t^2.~\label{eq:posicao_angular}
+\end{equation}
+Substituindo a expressão para a aceleração angular da equação \eqref{eq:angular_acceleration} na equação \eqref{eq:posicao_angular} obtemos:
+
+\begin{align}
+    \theta(t) = \frac{1}{2} \left(\frac{1}{r_p}\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)}\right) t^2 \nonumber \\
+    \theta(t) = \frac{1}{2r_p} \left(\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)}\right) t^2 ~\label{eq:posicao_angular_final} 
+\end{align}
+
+A equação \eqref{eq:posicao_angular_final} relaciona a posição angular do disco em função do tempo com o momento de inércia do sistema, a massa pendente, a aceleração da gravidade e o raio da polia. Assim, a partir dos dados experimentais de $\theta(t)$, é possível determinar o momento de inércia $I_{total}$ do sistema. Com o momento de inércia do sistema, é possível determinar o momento de inércia da polia $I_{polia}$ subtraindo o momento de inércia do disco $I_{disco}$ do momento de inércia total do sistema, ou seja, 
+
+\begin{equation}
+    I_{polia} = I_{total} - I_{disco}~\label{eq:moment_inertia_polia},
+\end{equation}
+\cite{Roteiro_Experimento_05}.
+
+\section{Metodologia}
+
+
+\section{Procedimentos}
+
+O procedimento experimental seguiu as seguintes etapas:
+
+\subsubsection{Medida da Posição Angular em Função do Tempo}
+O sistema foi configurado para que a massa pendente pudesse descer livremente, causando a rotação do disco e da polia. Assumindo o sentido antihorário como positivo. O coletor de dados foi utilizado para registrar a posição angular do disco em função do tempo durante a descida da massa. Uma pessoa foi designada para segurar o disco, e outra para ativar a função de registro. O registro dos dados foi feito duas vezes, para comparação dos resultados.
+
+\subsubsection{Medição das dimensões do sistema}
+As dimensões do sistema foram medidas utilizando um paquímetro. O raio da polia $r_p$ e o raio do disco $r_{disco}$ foram medidos, além disso, a massa do disco $m_{disco}$ e a massa pendente $m$ foram medidas utilizando uma balança de precisão. Essas medidas foram utilizadas para o cálculo do momento de inércia do disco e para a determinação do momento de inércia da total do sistema.
+
+
+\subsubsection{Organização dos dados em tabela}
+O Datalogger utilizado já salva os dados coletados em tabelas, mas alguns ajustes foram necessários para facilitar a análise. Foram feitos ajustes de formatação, e remoção de rúido. Os dados ajustados, removendo valores negativos e subtraindo o valor inicial para começar do tempo $t=0$ e posição angular $\theta=0$. Após isso foram organizados em tabelas para cada registro, facilitando a construção dos gráficos e a realização dos ajustes lineares no SciDAVis. 
+
+\subsubsection{Construção de gráficos e realização de ajustes no SciDAVis}
+Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados. Gráficos de posição angular em função do tempo foram construídos, e ajustes lineares foram realizados para determinar o coeficiente $A$ do ajuste linear, que é utilizado para o cálculo do momento de inércia do sistema. Para fins de comparação dos resultados, os ajustes lineares foram realizados tanto para o caso geral, quanto para o caso partindo do repouso.
+
+
+\subsubsection{Determinação do momento de inércia do sistema e da polia}
+Foi utilizada a equação \eqref{eq:moment_inertia_disk} para determinar o momento de inércia do disco $I_{disco}$.
+
+A partir dos coeficientes dos ajustes lineares calculados experimentalmente, 
+foi possível determinar o momento de inércia do sistema $I_{total}$ utilizando a equação \eqref{eq:moment_inertia_final}. Com o momento de inércia do sistema $I_{total}$ e do disco $I_{disco}$, foi possível determinar o momento de inércia da polia $I_{polia}$ a partir da equação \eqref{eq:moment_inertia_polia}.
+
+\section{Apresentação dos Resultados}
+asd
+\section{Discussão}
+
+A análise dos resultados revelou que a escolha do modelo de ajuste linear tem um impacto significativo na determinação do momento de inércia da polia. O modelo simplificado, que assume um movimento a partir do repouso absoluto, pode levar a resultados não físicos se essa condição não for rigorosamente atendida. Por outro lado, o modelo geral, que inclui um termo para a velocidade inicial, mostrou-se mais robusto e capaz de fornecer resultados consistentes mesmo quando a condição de repouso absoluto não foi estritamente observada.
+
+A comparação entre os resultados dos dois conjuntos de dados reforça a importância de garantir condições de contorno adequadas durante a coleta de dados experimentais, especialmente em sistemas dinâmicos onde a velocidade inicial pode influenciar significativamente os resultados. 
+
+Além disso, a análise destaca a necessidade de uma abordagem crítica na interpretação dos resultados experimentais, considerando as limitações dos modelos teóricos e as possíveis fontes de erro na coleta de dados.
+
+\section{Conclusão}
+
+O experimento permitiu a determinação do momento de inércia da polia, utilizando dois conjuntos de dados e dois modelos de ajuste linear. Os resultados indicaram que o modelo geral, que inclui um termo para a velocidade inicial, é mais adequado para a análise do sistema, especialmente quando a condição de repouso absoluto não é garantida. Mas o modelo simplificado, é bastante eficaz uma vez que as condições de contorno são atendidas. A análise dos resultados destacou a importância de considerar as condições de contorno e as limitações dos modelos teóricos na interpretação dos dados experimentais.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}
