@@ -73,150 +73,321 @@ Belo Horizonte
 O roteiro do experimento \citep{Roteiro_Experimento_05} propõe a determinação da aceleração da gravidade a partir do movimento oscilatório de um pêndulo simples.
 
 \section{Fundamentação Teórica}
-O momento de inércia de um corpo rígido em relação a um eixo de rotação, tem um papel análogo ao da massa no movimento de translação, isto é, representa a \textit{inércia de rotação} \citep{moyses2013}. Para corpos de densidade de massa constante, o momento de inércia é dado por
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{media/graphs/diagrama}
+\caption{Diagrama de um sistema de pêndulo simples. Fonte: Autor}
+\label{fig:free_body_diagram}
+\end{figure}
+
+Considere uma massa $m$ pendente de um fio de comprimento $L$, formando um ângulo $\theta$ com a vertical. Ao perturbar o sistema, a massa inicia um movimento oscilatório. A força restauradora que atual sobre a massa vem da componente tangencial da força peso:
 \begin{equation}
-    I = \int_{\mathcal{Q}} r^2 \, dm,
-    \label{eq:moment_inertia}
+F_{restauradora} = -mg \sin(\theta).
 \end{equation}
-em que \textit{r} é a distância do elemento de massa $dm$ ao eixo de rotação e $\mathcal{Q}$ é região ocupada pelo corpo no espaço. No caso de um sólido tridimensional, seu momento de inércia é dado por
-\begin{equation}
-    I = \iiint_{V} r^2 \, \rho(r) dV,
-    \label{eq:moment_inertia}
-\end{equation} 
-em que \textit{V} é a região do volume do corpo, e $\rho$ é a sua densidade de massa em função da posição.
 
-O disco utilizado no experimento é um corpo rígido de densidade de massa constante, e seu momento de inércia em relação ao eixo de rotação é dado por
+A expressão equivalente para o torque $\tau$ em relação ao ponto de suspensão é dada por
 \begin{equation}
-    I_{disco} = \frac{1}{2} m_{disco} \times r_{disco}^2,
-    \label{eq:moment_inertia_disk}
-\end{equation}~\cite{moyses2013}.
+\uptau = -mgL \sin(\theta), \label{eq:torque_pendulum}
+\end{equation}
 
-Com base no diagrama de corpo livre do sistema (Figura~\ref{fig:free_body_diagram}), é possível encontrar uma expressão que relacione o momento de inércia do sistema com a aceleração angular $\alpha$ do disco, a massa pendente $m$, a aceleração da gravidade $g$ e o raio da polia $r_p$.
+Sabemos da segunda lei de Newton para rotação que o torque é igual ao momento de inércia $I$ multiplicado pela aceleração angular $\alpha$, e que o momento de inércia de uma massa pontual é dado por $I = mL^2$. Assim, podemos escrever a segunda lei de Newton para rotação para o sistema do pêndulo como:
+\begin{align*}
+    \uptau &= I \alpha \\
+    &= m L^2 \alpha \\
+    &= m L^2 \frac{d^2\theta}{dt^2}
+\end{align*}
+Igualando as expressões para o torque da equação \eqref{eq:torque_pendulum} e da segunda lei de Newton para rotação, temos
+\begin{align}
+    -mgL \sin(\theta) &= m L^2 \frac{d^2\theta}{dt^2} \nonumber \\
+    -\frac{g}{L} \sin(\theta) &= \frac{d^2\theta}{dt^2} \nonumber \\
+    \frac{d^2\theta}{dt^2} + \frac{g}{L} \sin(\theta) &= 0
+    \label{eq:equacao_diferencial_pendulo}
+\end{align}
+Essa é a equação diferencial não linear que descreve o movimento do pêndulo simples.
+A expansão em série de Taylor para função $\sin(\theta)$ em torno de $\theta = 0$ é dada por
+\begin{equation}
+    \sin(\theta) = \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots
+    \label{eq:expansao_taylor_sin}
+\end{equation}
+
+Substituindo a expansão em série de Taylor da função $\sin(\theta)$ na equação diferencial do pêndulo simples, temos
+\begin{align*}
+    \frac{d^2\theta}{dt^2} + \frac{g}{L} \left( \theta - \frac{\theta^3}{3!} + \frac{\theta^5}{5!} - \cdots \right) &= 0 \\
+    \frac{d^2\theta}{dt^2} + \frac{g}{L} \theta - \frac{g}{L} \frac{\theta^3}{3!} + \frac{g}{L} \frac{\theta^5}{5!} - \cdots &= 0
+\end{align*}
+Ao truncar a expansão na primeira ordem, o erro introduzido é da ordem de $\theta^3$, o que é pequeno para pequenas oscilações. Portanto, a aproximação $\sin(\theta) \approx \theta$ é válida para pequenas oscilações, e a equação diferencial do pêndulo simples pode ser linearizada para pequenas oscilações resultando na seguinte equação diferencial linear:
+\begin{equation}
+    \frac{d^2\theta}{dt^2} + \frac{g}{L} \theta = 0, \label{eq:equacao_diferencial_pendulo_linearizada}
+\end{equation}
+
+Que é uma equação diferencial de segunda ordem homogênea com coeficientes constantes.
+Determinando um polinômio característico para a equação diferencial linearizada, temos
+\begin{align}
+    \frac{d^2\theta}{dt^2} + \frac{g}{L} \theta &= 0 \nonumber \\
+    \left(\frac{d^2}{dt^2} + \frac{g}{L}\right) \theta &= 0
+\end{align}
+O polinômio característico é dado por
+\begin{equation}
+    r^2 + \frac{g}{L} = 0,
+\end{equation}
+Calculando as raízes do polinômio característico, temos
+\begin{align*}
+    r^2 &= -\frac{g}{L} \\
+    \implies \Delta &= 0 - 4 \cdot \frac{g}{L} = -\frac{4g}{L} < 0 \\
+    \implies r &= \pm \frac{\sqrt{-\frac{4g}{L}}}{2} = \pm \sqrt{(-1)\frac{4g}{4L}}\\
+    &= \pm i \sqrt{\frac{g}{L}} \\
+    \therefore r_1 &= i \sqrt{\frac{g}{L}}, \quad r_2 = -i \sqrt{\frac{g}{L}} \\
+\end{align*}
+Agora podemos reecrever a equação na forma fatorada, utilizando as raízes do polinômio característico, temos
+\begin{align*}
+    \left(\frac{d^2}{dt^2} + \frac{g}{L}\right) \theta &= 0 \\
+    \left(\frac{d}{dt} - r_1\right)\left(\frac{d}{dt} - r_2\right) \theta &= 0 \\
+    \left(\frac{d}{dt} - i \sqrt{\frac{g}{L}}\right)\left(\frac{d}{dt} + i \sqrt{\frac{g}{L}}\right) \theta &= 0 \\
+\end{align*}
+Se o primeiro fator for igual a zero, temos
+\begin{align*}
+    \left(\frac{d}{dt} - i \sqrt{\frac{g}{L}}\right) \theta &= 0 \\
+    \implies \frac{d\theta}{dt} - i \sqrt{\frac{g}{L}} \theta&= 0
+\end{align*}
+Que é uma equação diferencial de primeira ordem homogênea linear, e a solução geral para essa equação é dada por
+\begin{align*}
+    \theta(t)_{1} &= C \cdot exp\left(i \sqrt{\frac{g}{L}} t\right) \\
+\end{align*}
+Se o segundo fator for igual a zero, temos
+\begin{align*}
+    \left(\frac{d}{dt} + i \sqrt{\frac{g}{L}}\right) \theta &= 0 \\
+    \implies \frac{d\theta}{dt} + i \sqrt{\frac{g}{L}} \theta&= 0
+\end{align*}
+e a solução geral para essa equação é dada por
+\begin{align*}
+    \theta(t)_{2} &= D\cdot exp\left(-i \sqrt{\frac{g}{L}} t\right) \\
+\end{align*}
+Pelo teorema de superposição, a combinação linear das soluções $\theta(t)_{1}$ e $\theta(t)_{2}$ é também uma solução para a equação diferencial linearizada do pêndulo simples, e a solução geral para a posição angular do pêndulo simples é dada por
+\begin{align*}
+    \theta(t) &= C \cdot exp\left(i \sqrt{\frac{g}{L}} t\right) + D \cdot exp\left(-i \sqrt{\frac{g}{L}} t\right)
+\end{align*}
+Da fórmula compacta de Euler, sabemos que $exp(i \theta) = \cos(\theta) + i \sin(\theta)$, e utilizando essa fórmula, podemos reescrever a solução geral para a posição angular do pêndulo simples como
+\begin{align}
+    \theta(t) & = C \cdot \left(\cos\left(\sqrt{\frac{g}{L}} t\right) + i \sin\left(\sqrt{\frac{g}{L}} t\right)\right) + D \cdot \left(\cos\left(-\sqrt{\frac{g}{L}} t\right) + i \sin\left(-\sqrt{\frac{g}{L}} t\right)\right) \nonumber \\
+    & = C \cdot \left(\cos\left(\sqrt{\frac{g}{L}} t\right) + i \sin\left(\sqrt{\frac{g}{L}} t\right)\right) + D \cdot \left(\cos\left(\sqrt{\frac{g}{L}} t\right) - i \sin\left(\sqrt{\frac{g}{L}} t\right)\right) \nonumber \\
+    & = (C + D) \cdot \cos\left(\sqrt{\frac{g}{L}} t\right) + i (C - D) \cdot \sin\left(\sqrt{\frac{g}{L}} t\right) \label{eq:solucao_geral_pendulo}
+\end{align}
+
+Pela identidade trigonométrica $\sin(a + b) = \sin(a)\cos(b) + \cos(a)\sin(b)$, queremos reescrever a solução na forma de um único seno com fase:
+\begin{equation}
+\theta(t) = A\sin\left(\sqrt{\frac{g}{L}} t + \phi\right)~\label{eq:seno_da_fase}
+\end{equation}
+Fazendo a expansão pela identidade trigonométrica, temos
+\begin{align*}
+A\sin\left(\sqrt{\frac{g}{L}} t + \phi\right)
+&= A\sin\left(\sqrt{\frac{g}{L}} t\right)\cos\phi + A\cos\left(\sqrt{\frac{g}{L}} t\right)\sin\phi
+\end{align*}
+Igualando termo a termo com a expressão original da equação~\ref{eq:solucao_geral_pendulo}:
+\begin{align}
+A\sin\phi &= (C + D) \nonumber \\
+A\cos\phi &= i (C - D) \nonumber \\
+\implies \tan\phi &= \frac{C + D}{i (C - D)} \nonumber \\
+\implies \phi &= \arctan\left(\frac{C + D}{i (C - D)}\right) \nonumber
+\end{align}
+
+Para encontrar A:
+\begin{align*}
+\left(A\sin\phi \right)^2 &= \left( { C + D } \right)^2 \\ 
+\left(A\cos\phi \right)^2 &= \left( { i^2 C - D} \right)^2 \\
+\implies A^2 &= \left( {C + D} \right)^2 + i^2 \left( {C - D} \right)^2 \\
+A &= \sqrt{\left( {C + D} \right)^2 - \left( {C - D} \right)^2} \\
+&= \sqrt{4CD} = 2 \sqrt{CD}
+\end{align*}
+
+Substituindo os valores de $A$ e $\phi$ na equação \eqref{eq:seno_da_fase}, temos a solução geral para a posição angular do pêndulo simples na forma de um único seno com fase:
+\begin{align*}
+\theta(t) = 2 \sqrt{CD} \sin\left(\sqrt{\frac{g}{L}} t + \arctan\left(\frac{C + D}{i (C - D)}\right)\right)
+\end{align*}
+em que $A = 2 \sqrt{CD}$ é a amplitude da oscilação, e $\phi = \arctan\left(\frac{C + D}{i (C - D)}\right)$ é a fase inicial. A frequência angular $\omega$ do movimento oscilatório é dada por $\omega = \sqrt{\frac{g}{L}}$
+
+Apesar de conseguirmos chegar a uma expressão para a posição angular, as constantes $C$ e $D$ ainda não foram determinadas, e para isso precisamos de condições iniciais.
+
+Mas para determinar o módulo da aceleração da gravidade $g$, não é necessário determinar as constantes $C$ e $D$, pois basta encontrar uma expressão para o período de oscilação $T$ do pêndulo simples, e a partir disso, determinar $g$ a partir da relação entre o período de oscilação e a frequência angular.
+
+Para determinar uma expressão para o período de oscilação do pêndulo simples, queremos um período $T$ tal que $\theta(t + T) = \theta(t)$ para todo $t$. Substituindo a equação do seno da fase temos
+\begin{align*}
+\theta(t + T) = A\sin\left(\sqrt{\frac{g}{L}} (t + T) + \phi\right) = A\sin\left(\sqrt{\frac{g}{L}} (t) + \phi\right)
+\end{align*}
+
+Utilizando a propriedade do seno:
+\begin{align*}
+\sin\left(\sqrt{\frac{g}{L}} T + 2\pi\right) &= \sin\left(\sqrt{\frac{g}{L}} T\right) \\
+\sqrt{\frac{g}{L}} T &= 2\pi \\
+T &= 2\pi \sqrt{\frac{L}{g}} \label{eq:periodo_pendulo}
+\end{align*}
+No experimento, os dados coletados foram o período de oscilação $T$ para diferentes comprimentos do fio $L$. Para determinar a aceleração da gravidade $g$, podemos rearranjar a equação \eqref{eq:periodo_pendulo} para isolar $g$:
+
+\begin{align*}
+T &= 2\pi \sqrt{\frac{L}{g}} \\
+\sqrt{\frac{L}{g}} &= \frac{T}{2\pi} \\
+\frac{L}{g} &= \left(\frac{T}{2\pi}\right)^2 \\
+g &= \frac{L}{\left(\frac{T}{2\pi}\right)^2} \\
+&= \frac{4\pi^2 L}{T^2}
+\end{align*}
+
+\section{Metodologia}
+
+O experimento foi realizado utilizando um sistema de pêndulo simples, composto por uma massa $m$ pendente de um fio de comprimento $L$. O sistema foi configurado para a contagem do período de oscilação do pêndulo para pequenos ângulos de oscilação.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{media/photos/pendulo.png}
-\caption{Sistema de queda utilizado para a determinação do momento de inércia. Fonte: Autor}
-\label{fig:free_body_diagram}
+\caption{Sistema de pêndulo simples. Fonte: Autor}
+\label{fig:pendulo_experimento}
 \end{figure}
 
-Assumindo para cima como a direção positiva, e o sentido antihorário como o sentido positivo de rotação, além disso considerando que o fio não escorrega na polia, pela segunda lei de Newton temos:
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{media/photos/trena_digital.png}
+\caption{Trena digital. Fonte: Autor}
+\label{fig:trena_digital}
+\end{figure}
 
-\begin{align}
-    \vec{F_{net}} &= m \vec{a} \nonumber \\
-    \implies  \vec{T} + \vec{P} &= m\vec{a} \nonumber \\
-    \vec{T} - mg\hat{\jmath} &= m\vec{a} \nonumber \\
-    T - mg &= ma_y \label{eq:net_force}
-\end{align}
-
-O torque $\vec{\uptau_T}$ causado pela força de tensão $\vec{T}$ na polia é dado por
-\begin{align}
-    \vec{\uptau_T} &= \vec{r_p} \times \vec{T} \nonumber \\
-    &= r_p T \hat{k}, \label{eq:torque}
-\end{align}
-
-Pela segunda lei de Newton para rotação, temos
-\begin{equation}
-    \vec{\uptau_{net}} = I \vec{\alpha}.
-\end{equation}
-
-Substituindo a expressão do torque $\vec{\uptau_T}$ da equação \eqref{eq:torque} na equação da segunda lei de Newton para rotação, temos
-
-\begin{align}
-    \vec{\uptau_T} &= I \vec{\alpha} \nonumber \\
-    r_p T \hat{k} &= I \alpha \hat{k} \nonumber \\
-    r_p T &= I \alpha. \label{eq:net_torque}
-\end{align}
-
-A aceleração tangecial do disco é dada por
-\begin{align}
-    \vec{a_t} &= \vec{\alpha} \times \vec{r_p} \nonumber \\
-    &= \alpha \hat{k} \times -r_p \hat{\imath} \nonumber \\
-    &= -\alpha r_p \hat{\jmath}. \label{eq:tangential_acceleration}
-\end{align}
-
-Como a aceleração tangencial do disco é igual à aceleração da massa pendente, ou seja, $a_t = a_y$, e isolando a tração $T$ da equação \eqref{eq:net_torque} podemos substituir $T$ e $a_t$ na equação \eqref{eq:net_force}, assim temos
-
-\begin{align}
-    T &= \frac{I \alpha}{r_p} \nonumber \\
-    \implies \frac{I \alpha}{r_p} - mg &= m (-\alpha r_p) \nonumber \\
-    - mg &= m (-\alpha r_p) - \frac{I \alpha}{r_p}  \nonumber \\
-    mg &= m (\alpha r_p) + \frac{I \alpha}{r_p}  \nonumber \\
-    mg &= \alpha r_p \left(m + \frac{I}{r_p^2}\right) \nonumber \\
-    \frac{1}{r_p}\frac{mg}{\left(m + \frac{I}{r_p^2}\right)} &= \alpha \nonumber \\
-    \implies \alpha &= \frac{1}{r_p}\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)} \label{eq:angular_acceleration}
-\end{align}
-
-Sabemos que a aceleração angular $\alpha$ é a derivada de segunda ordem da posição angular $\theta$ do disco em função do tempo, ou seja, $\alpha = \frac{d^2\theta}{dt^2}$.
-
-\begin{align}
-    \alpha = \frac{d^2\theta}{dt^2} = \frac{d}{dt}\frac{d\theta}{dt} &= \frac{d\omega}{dt} \nonumber \\
-    \int_0^t \alpha \, dt &= \int_{\omega(0)}^{\omega(t)} d\omega \nonumber \\
-    \alpha t &= \omega(t) - \omega(0) \nonumber \\ 
-    \implies \omega(t) &= \omega(0) + \alpha t \nonumber \\
-    \int_0^t \omega(t) \, dt &= \int_{\theta(0)}^{\theta(t)} d\theta \nonumber\\
-    \int_0^t \left(\omega(0) + \alpha t\right) dt &= \theta(t) - \theta(0) \nonumber \\
-    \implies \theta(t) &= \theta(0) + \omega(0)t + \frac{1}{2}\alpha t^2 \nonumber
-\end{align}
-
-Considerando as condições iniciais de $\theta(0) = 0$ e $\frac{d\theta}{dt}(0) = 0$, a posição angular do disco em função do tempo é dada por
-\begin{equation}
-    \theta(t) = \frac{1}{2}\alpha t^2.~\label{eq:posicao_angular}
-\end{equation}
-Substituindo a expressão para a aceleração angular da equação \eqref{eq:angular_acceleration} na equação \eqref{eq:posicao_angular} obtemos:
-
-\begin{align}
-    \theta(t) = \frac{1}{2} \left(\frac{1}{r_p}\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)}\right) t^2 \nonumber \\
-    \theta(t) = \frac{1}{2r_p} \left(\frac{g}{\left(1 + \frac{I}{mr_p^2}\right)}\right) t^2 ~\label{eq:posicao_angular_final} 
-\end{align}
-
-A equação \eqref{eq:posicao_angular_final} relaciona a posição angular do disco em função do tempo com o momento de inércia do sistema, a massa pendente, a aceleração da gravidade e o raio da polia. Assim, a partir dos dados experimentais de $\theta(t)$, é possível determinar o momento de inércia $I_{total}$ do sistema. Com o momento de inércia do sistema, é possível determinar o momento de inércia da polia $I_{polia}$ subtraindo o momento de inércia do disco $I_{disco}$ do momento de inércia total do sistema, ou seja, 
-
-\begin{equation}
-    I_{polia} = I_{total} - I_{disco}~\label{eq:moment_inertia_polia},
-\end{equation}
-\cite{Roteiro_Experimento_05}.
-
-\section{Metodologia}
-
+Os dados do experimento foram anotados em uma tabela para cada comprimento do fio, e posteriormente, a partir dos dados coletados, foi possível determinar a aceleração da gravidade $g$ utilizando o software SciDAVis para análise dos dados e construção de gráficos a partir da linearização dos dados coletados.
 
 \section{Procedimentos}
 
 O procedimento experimental seguiu as seguintes etapas:
 
-\subsubsection{Medida da Posição Angular em Função do Tempo}
-O sistema foi configurado para que a massa pendente pudesse descer livremente, causando a rotação do disco e da polia. Assumindo o sentido antihorário como positivo. O coletor de dados foi utilizado para registrar a posição angular do disco em função do tempo durante a descida da massa. Uma pessoa foi designada para segurar o disco, e outra para ativar a função de registro. O registro dos dados foi feito duas vezes, para comparação dos resultados.
+\subsubsection{Cronometragem do período de oscilação do pêndulo}
+O sistema foi configurado para que a massa pendente pudesse oscilar livremente, e em diversas alturas. Para cada configuração, o tempo de 10 oscilações completas foi cronometrado utilizando um cronômetro digital, e o período de oscilação $T$ foi calculado dividindo o tempo total por 10. Esse processo foi repetido para diferentes comprimentos do fio $L$, e os dados foram anotados em uma tabela para posterior análise.
 
-\subsubsection{Medição das dimensões do sistema}
-As dimensões do sistema foram medidas utilizando um paquímetro. O raio da polia $r_p$ e o raio do disco $r_{disco}$ foram medidos, além disso, a massa do disco $m_{disco}$ e a massa pendente $m$ foram medidas utilizando uma balança de precisão. Essas medidas foram utilizadas para o cálculo do momento de inércia do disco e para a determinação do momento de inércia da total do sistema.
-
+\subsubsection{Determinação do comprimento do fio}
+O comprimento do fio $L$ foi medido utilizando uma trena digital, desde o ponto de suspensão até o centro de massa da massa pendente. Essa medida foi realizada para cada configuração do experimento, e os dados foram anotados em uma tabela para posterior análise.
 
 \subsubsection{Organização dos dados em tabela}
-O Datalogger utilizado já salva os dados coletados em tabelas, mas alguns ajustes foram necessários para facilitar a análise. Foram feitos ajustes de formatação, e remoção de rúido. Os dados ajustados, removendo valores negativos e subtraindo o valor inicial para começar do tempo $t=0$ e posição angular $\theta=0$. Após isso foram organizados em tabelas para cada registro, facilitando a construção dos gráficos e a realização dos ajustes lineares no SciDAVis. 
+Os dados foram anotados manualmente durante o experimento, e posteriormente organizados em uma tabela para facilitar a análise dos dados. A tabela incluiu as seguintes colunas: comprimento do fio $L$, tempo total para 10 oscilações, período de oscilação $T$.
 
 \subsubsection{Construção de gráficos e realização de ajustes no SciDAVis}
-Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados. Gráficos de posição angular em função do tempo foram construídos, e ajustes lineares foram realizados para determinar o coeficiente $A$ do ajuste linear, que é utilizado para o cálculo do momento de inércia do sistema. Para fins de comparação dos resultados, os ajustes lineares foram realizados tanto para o caso geral, quanto para o caso partindo do repouso.
+Os dados organizados em tabela foram importados para o software SciDAVis para análise de dados.
 
+Utilizando a linearização da equação \eqref{eq:periodo_pendulo}, foi possível construir um gráfico de $L$ em função de $T^2$, e realizar um ajuste linear para determinar a inclinação da reta, que é dada por $\frac{g}{4\pi^2}$. A partir da inclinação da reta, foi possível determinar a aceleração da gravidade $g$ utilizando a relação:
+\begin{align*}
+L = \frac{g}{4\pi^2} T^2 + b
+\end{align*}
 
-\subsubsection{Determinação do momento de inércia do sistema e da polia}
-Foi utilizada a equação \eqref{eq:moment_inertia_disk} para determinar o momento de inércia do disco $I_{disco}$.
+Foram plotados dois gráficos, um considerando a constante de ajuste $b$ como um parâmetro a ser determinado, e outro considerando a constante de ajuste $b$ igual a zero, para comparar os resultados obtidos com os dois modelos de ajuste linear.
 
 A partir dos coeficientes dos ajustes lineares calculados experimentalmente, 
-foi possível determinar o momento de inércia do sistema $I_{total}$ utilizando a equação \eqref{eq:moment_inertia_final}. Com o momento de inércia do sistema $I_{total}$ e do disco $I_{disco}$, foi possível determinar o momento de inércia da polia $I_{polia}$ a partir da equação \eqref{eq:moment_inertia_polia}.
+foi possível determinar o módulo da aceleração da gravidade $g$.
 
 \section{Apresentação dos Resultados}
-asd
+
+\subsection{Dados Coletados}
+Os dados coletados no experimento do pêndulo estão organizados na Tabela~\ref{tab:dados}, que apresenta os valores do comprimento do fio $L$ e o período de oscilação $T$ para cada configuração do experimento.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{S[table-format=1.3] S[table-format=1.3]}
+\toprule
+\multicolumn{1}{c}{\shortstack{\textbf{Comprimento do fio} \\ \textbf{$L$ (m)}}} & \multicolumn{1}{c}{\shortstack{\textbf{Período de oscilação} \\ \textbf{$T$ (s)}}} \\
+\midrule
+2,714 & 1,9 \\
+2,507 & 1,648 \\
+2,338 & 1,338 \\
+2,21 & 1,177 \\
+2,046 & 1,036 \\
+1,912 & 0,877 \\
+1,603 & 0,613 \\
+\bottomrule
+\end{tabular}
+\caption{Dados coletados no experimento do pêndulo.}
+\label{tab:dados}
+\end{table}
+
+\subsection{Análise dos Dados}
+
+\subsubsection{Ajuste Linear com constante de ajuste}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{media/graphs/pendulum_l_2.pdf}
+\caption{Ajuste Linear com constante de ajuste. Fonte: Autor}
+\label{fig:ajuste_linear_com_constante}
+\end{figure}
+
+\subsubsection{Log do SciDAVis}
+
+\begin{verbatim}
+[sábado, 25 de abril de 2026 11:25:28 Hora oficial do Brasil	Plot: ''Graph2'']
+Non-linear fit of dataset: Table1_l, using function: a*x+b
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 0 to x = 0,186577792296999
+a  = 9,95209039767433 +/- 0,0725741275922127
+b  = -0,00286887082110515 +/- 0,00456484662317083
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0137685420208305
+R^2 = 0,998825176745932
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+\end{verbatim}
+
+Valor encontrado de g a partir do ajuste linear com a constante de ajuste: $g = 9,95 \pm 0,07 \, m/s^2$ e constante de ajuste $b = -0,002 \pm 0,004$.
+
+\subsubsection{Ajuste Linear sem constante de ajuste}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{media/graphs/pendulum_l_1.pdf}
+\caption{Ajuste Linear sem constante de ajuste. Fonte: Autor}
+\label{fig:ajuste_linear_sem_constante}
+\end{figure}
+\subsubsection{Log do SciDAVis}
+\begin{verbatim}
+[sábado, 25 de abril de 2026 11:23:17 Hora oficial do Brasil	Plot: ''Graph1'']
+Non-linear fit of dataset: Table1_l, using function: a*x
+Y standard errors: Unknown
+Scaled Levenberg-Marquardt algorithm with tolerance = 0,0001
+From x = 0 to x = 0,186577792296999
+a  = 9,93102065416461 +/- 0,0636915352661189
+--------------------------------------------------------------------------------------
+Chi^2 = 0,0139627645225836
+R^2 = 0,998808604394903
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+\end{verbatim}
+
+Valor encontrado de g a partir do ajuste linear sem constante de ajuste: $g = 9,93 \pm 0,06 \, m/s^2$
+
+
+
 \section{Discussão}
 
-A análise dos resultados revelou que a escolha do modelo de ajuste linear tem um impacto significativo na determinação do momento de inércia da polia. O modelo simplificado, que assume um movimento a partir do repouso absoluto, pode levar a resultados não físicos se essa condição não for rigorosamente atendida. Por outro lado, o modelo geral, que inclui um termo para a velocidade inicial, mostrou-se mais robusto e capaz de fornecer resultados consistentes mesmo quando a condição de repouso absoluto não foi estritamente observada.
+Consideramos então, o valor para $g$ encontrado do ajuste sem o termo constante: $g_{exp} = 9,93 \, m/s^2$.
 
-A comparação entre os resultados dos dois conjuntos de dados reforça a importância de garantir condições de contorno adequadas durante a coleta de dados experimentais, especialmente em sistemas dinâmicos onde a velocidade inicial pode influenciar significativamente os resultados. 
+\subsection{Concordância com o Valor de Referência}
+Para validar a acurácia experimental, utilizou-se o valor de referência do Observatório Nacional para Belo Horizonte \citep{on_gravimetria_bh_1981}:
+\begin{equation}
+    g_{bh} = 9{,}7838163 \pm 4\times10^{-7}\,\text{m/s}^2
+\end{equation}
 
-Além disso, a análise destaca a necessidade de uma abordagem crítica na interpretação dos resultados experimentais, considerando as limitações dos modelos teóricos e as possíveis fontes de erro na coleta de dados.
-
+O Erro Relativo Percentual ($E_{rel}$) obtido foi de:
+\begin{align*}
+    E_{rel} &= \frac{|g_{exp} - g_{bh}|}{g_{bh}} \times 100\% \\
+\end{align*}
+\begin{align*}
+\approx \frac{|9,93 - 9,78|}{9,78} \times 100\% \approx 1,53\%
+\end{align*}
 \section{Conclusão}
 
-O experimento permitiu a determinação do momento de inércia da polia, utilizando dois conjuntos de dados e dois modelos de ajuste linear. Os resultados indicaram que o modelo geral, que inclui um termo para a velocidade inicial, é mais adequado para a análise do sistema, especialmente quando a condição de repouso absoluto não é garantida. Mas o modelo simplificado, é bastante eficaz uma vez que as condições de contorno são atendidas. A análise dos resultados destacou a importância de considerar as condições de contorno e as limitações dos modelos teóricos na interpretação dos dados experimentais.
+O experimento permitiu a determinação da aceleração da gravidade, resultando em $g = 9{,}93 \pm 0{,}06$ m/s$^2$.
+
+A análise dos resultados obtidos a partir dos dois ajustes lineares com e sem constante inicial de ajuste revelou que ambos os modelos forneceram valores para a aceleração da gravidade $g$ que estão próximos do valor esperado de $9,81 \, m/s^2$.
+
+No entanto, o modelo com constante de ajuste apresentou um valor ligeiramente mais alto para $g$, enquanto o modelo sem constante de ajuste apresentou um valor ligeiramente mais baixo. 
+
+A presença da constante de ajuste no modelo pode indicar a existência de um erro sistemático ou uma influência de fatores não considerados no modelo teórico, como a resistência do ar ou a rigidez do fio. 
+
+Por outro lado, o modelo sem constante de ajuste assume que o sistema está idealmente isolado e que todas as condições de contorno são atendidas, o que pode não ser o caso na prática. 
 
 \bibliographystyle{plainnat}
 \bibliography{refs}

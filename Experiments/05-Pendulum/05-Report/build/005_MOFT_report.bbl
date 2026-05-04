@@ -12,9 +12,13 @@ Departamento de~Física CEFET-MG.
 \newblock Documento disponibilizado aos alunos do curso de Física Mecânica,
   Oscilações, Fluidos e Termodinâmica, 2026.
 
-\bibitem[Nussenzveig(2013)]{moyses2013}
-Herch~Moyses Nussenzveig.
-\newblock \emph{Curso de física básica, 1: Mecânica}.
-\newblock Blucher, 5th edition, 2013.
+\bibitem[Nacional(1981)]{on_gravimetria_bh_1981}
+Observatório Nacional.
+\newblock Medição gravimétrica da aceleração da gravidade em belo
+  horizonte.
+\newblock Relatório técnico – programa da Rede Gravimétrica Fundamental
+  Brasileira, 1981.
+\newblock Departamento de Física, Belo Horizonte; g = $9{,}7838163\pm
+  4\times10^{-7}\,\mathrm{m/s^2}$.
 
 \end{thebibliography}
