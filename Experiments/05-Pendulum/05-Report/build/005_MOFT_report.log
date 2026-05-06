@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  3 MAY 2026 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  3 MAY 2026 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,30 +653,24 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 84.
  [1 <./media/graphs/diagrama.png>] [2] [3] [4]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 224.
-
-
-LaTeX Warning: Reference `eq:periodo_pendulo' on page 5 undefined on input line 224.
-
 <media/photos/pendulo.png, id=29, 1204.5pt x 1606.0pt>
 File: media/photos/pendulo.png Graphic file (type png)
 <use media/photos/pendulo.png>
 Package pdftex.def Info: media/photos/pendulo.png  used on input line 240.
 (pdftex.def)             Requested size: 364.19667pt x 485.60208pt.
-[5]
+ [5]
 <media/photos/trena_digital.png, id=33, 1204.5pt x 1606.0pt>
 File: media/photos/trena_digital.png Graphic file (type png)
 <use media/photos/trena_digital.png>
 Package pdftex.def Info: media/photos/trena_digital.png  used on input line 247.
 (pdftex.def)             Requested size: 364.19667pt x 485.60208pt.
- [6 <./media/photos/pendulo.png>] [7 <./media/photos/trena_digital.png>]
-
-LaTeX Warning: Reference `eq:periodo_pendulo' on page 8 undefined on input line 270.
-
+ [6 <./media/photos/pendulo.png>]
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 258.
+ [7 <./media/photos/trena_digital.png>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.4pt on input line 282.
-[8]
+ [8]
 <media/graphs/pendulum_l_2.pdf, id=44, 755.82375pt x 456.70625pt>
 File: media/graphs/pendulum_l_2.pdf Graphic file (type pdf)
 <use media/graphs/pendulum_l_2.pdf>
@@ -742,21 +736,17 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 13555 strings out of 467870
- 274784 string characters out of 5418355
- 663219 words of memory out of 5000000
- 42219 multiletter control sequences out of 15000+600000
+ 13557 strings out of 467870
+ 274811 string characters out of 5418355
+ 663245 words of memory out of 5000000
+ 42221 multiletter control sequences out of 15000+600000
  658101 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,16n,80p,667b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsym.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb>
-Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\05-Pendulum\05-Report\build\005_MOFT_report.pdf" (12 pages, 682541 bytes).
+Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\05-Pendulum\05-Report\build\005_MOFT_report.pdf" (12 pages, 682364 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
