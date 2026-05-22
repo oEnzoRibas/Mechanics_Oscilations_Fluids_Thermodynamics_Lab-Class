@@ -1,9 +1,14 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{3}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Boyce et~al.(2024)Boyce, DiPrima, and Meade]{boycediprima2024}
+William~E. Boyce, Richard~C. DiPrima, and Douglas~B. Meade.
+\newblock \emph{Elementary Differential Equations and Boundary Value Problems}.
+\newblock Gen, 12th edition, 2024.
 
 \bibitem[CEFET-MG(2026)]{Roteiro_Experimento_05}
 Departamento de~Física CEFET-MG.
@@ -11,13 +16,8 @@ Departamento de~Física CEFET-MG.
 \newblock Documento disponibilizado aos alunos do curso de Física Mecânica,
   Oscilações, Fluidos e Termodinâmica, 2026.
 
-\bibitem[Nacional(1981)]{on_gravimetria_bh_1981}
-Observatório Nacional.
-\newblock Medição gravimétrica da aceleração da gravidade em belo
-  horizonte.
-\newblock Relatório técnico – programa da Rede Gravimétrica Fundamental
-  Brasileira, 1981.
-\newblock Departamento de Física, Belo Horizonte; g = $9{,}7838163\pm
-  4\times10^{-7}\,\mathrm{m/s^2}$.
+\bibitem[More(2020)]{the_vibration_of_vertical_spring_2020}
+Hemant More.
+\newblock The vibration of vertical spring, 2020.
 
 \end{thebibliography}
