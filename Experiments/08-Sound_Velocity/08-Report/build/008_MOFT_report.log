@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  11 JUN 2026 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  11 JUN 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex"
-(c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex
+**"c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/08-Sound_Velocity/08-Report/008_MOFT_report.tex"
+(c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/08-Sound_Velocity/08-Report/008_MOFT_report.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -454,11 +454,11 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 24.
- (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\06-Spring\06-Report\build\006_MOFT_report.aux
+ (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\08-Sound_Velocity\08-Report\build\008_MOFT_report.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 5.
 )
-\openout1 = `006_MOFT_report.aux'.
+\openout1 = `008_MOFT_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 24.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 24.
@@ -576,289 +576,137 @@ LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 17.28pt on input line 31.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 24.88pt on input line 41.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 41.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 54.
+(Font)              scaled to size 14.4pt on input line 53.
 [1
 
 {C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc} <./media/Logo_CEFET-MG.png>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 71.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 77.
+(Font)              scaled to size 17.28pt on input line 70.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 75.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 75.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 77.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 75.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 75.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
+(Font)              scaled to size 6.6pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 77.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 77.
+(Font)              scaled to size 8.8pt on input line 75.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 77.
-<media/graphs/spring_fbd.png, id=9, 301.125pt x 257.96375pt>
-File: media/graphs/spring_fbd.png Graphic file (type png)
-<use media/graphs/spring_fbd.png>
-Package pdftex.def Info: media/graphs/spring_fbd.png  used on input line 81.
-(pdftex.def)             Requested size: 364.19667pt x 312.02293pt.
+(Font)              scaled to size 6.6pt on input line 75.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 89.
+(Font)              scaled to size 8.8pt on input line 85.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 89.
- [1 <./media/graphs/spring_fbd.png>]
-LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 104.
- [2]
+(Font)              scaled to size 6.6pt on input line 85.
+ [1]
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 125.
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 125.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 148.
-<media/photos/sistema.png, id=21, 1204.5pt x 1606.0pt>
+(Font)              scaled to size 12.0pt on input line 125.
+<media/photos/sistema.png, id=17, 1204.5pt x 1606.0pt>
 File: media/photos/sistema.png Graphic file (type png)
 <use media/photos/sistema.png>
-Package pdftex.def Info: media/photos/sistema.png  used on input line 152.
+Package pdftex.def Info: media/photos/sistema.png  used on input line 134.
 (pdftex.def)             Requested size: 364.19667pt x 485.60208pt.
- [3]
-<media/photos/datastudio.png, id=26, 1204.5pt x 1606.0pt>
-File: media/photos/datastudio.png Graphic file (type png)
-<use media/photos/datastudio.png>
-Package pdftex.def Info: media/photos/datastudio.png  used on input line 159.
-(pdftex.def)             Requested size: 364.19667pt x 485.60208pt.
- [4 <./media/photos/sistema.png>]
+ [2{C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}] [3 <./media/photos/sistema.png>]
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.4pt on input line 168.
- [5 <./media/photos/datastudio.png>]
-
-LaTeX Warning: Reference `tab:dados' on page 6 undefined on input line 204.
-
-
-Underfull \hbox (badness 1168) in paragraph at lines 213--213
-[]\OT1/minntx/m/n/12 Tabela 1: Da-dos Ci-nem[]aticos Bru-tos do Mo-vi-mento
- []
-
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 235.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 235.
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [6]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [7]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [8]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [9]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [10]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/CEFET/EngMec/Curso Principal/3S/Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class/Experiments/06-Spring/06-Report/006_MOFT_report.tex:488: ignored error: Infinite glue shrinkage found in box being split [11] [12]
-<media/graphs/damped_oscilation.pdf, id=56, 1208.515pt x 634.37pt>
-File: media/graphs/damped_oscilation.pdf Graphic file (type pdf)
-<use media/graphs/damped_oscilation.pdf>
-Package pdftex.def Info: media/graphs/damped_oscilation.pdf  used on input line 497.
-(pdftex.def)             Requested size: 455.24411pt x 238.9626pt.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 505.
+(Font)              scaled to size 12.0pt on input line 181.
+ [4]
+<media/graphs/graph.pdf, id=30, 743.77875pt x 404.51125pt>
+File: media/graphs/graph.pdf Graphic file (type pdf)
+<use media/graphs/graph.pdf>
+Package pdftex.def Info: media/graphs/graph.pdf  used on input line 199.
+(pdftex.def)             Requested size: 364.19667pt x 198.07645pt.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 205.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtt.fd
 File: ot1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 505.
+(Font)              scaled to size 12.0pt on input line 205.
 
-Overfull \hbox (61.35489pt too wide) in paragraph at lines 522--522
-[]\OT1/ntxtt/m/n/12 Non-linear fit of dataset: Table1_2, using function: a * exp(-b*x ) * cos(c*x) + d[] 
- []
-
-
-Overfull \hbox (86.55484pt too wide) in paragraph at lines 522--522
+Overfull \hbox (86.55484pt too wide) in paragraph at lines 214--214
 []\OT1/ntxtt/m/n/12 --------------------------------------------------------------------------------------[] 
  []
 
-
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 522--522
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 522--522
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 530.
-(C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
-File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
-)
-LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 530.
- [13 <./media/graphs/damped_oscilation.pdf>]
-<media/graphs/damped_oscilation_with_envelopes.pdf, id=78, 1279.78125pt x 728.7225pt>
-File: media/graphs/damped_oscilation_with_envelopes.pdf Graphic file (type pdf)
-<use media/graphs/damped_oscilation_with_envelopes.pdf>
-Package pdftex.def Info: media/graphs/damped_oscilation_with_envelopes.pdf  used on input line 573.
-(pdftex.def)             Requested size: 455.24411pt x 259.22647pt.
- [14{C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
-Overfull \hbox (61.35489pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 [sexta-feira, 22 de maio de 2026 11:51:26 Hora oficial do Brasil Plot: ''Graph1''][] 
- []
-
-
-Overfull \hbox (17.25497pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 Non-linear fit of dataset: Table1_MIN 1, using function: a * exp(-b*x ) + d[] 
- []
-
-
-Overfull \hbox (86.55484pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 --------------------------------------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (61.35489pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 [sexta-feira, 22 de maio de 2026 11:51:40 Hora oficial do Brasil Plot: ''Graph1''][] 
- []
-
-
-Overfull \hbox (17.25497pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 Non-linear fit of dataset: Table1_MAX 1, using function: a * exp(-b*x ) + d[] 
- []
-
-
-Overfull \hbox (86.55484pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 --------------------------------------------------------------------------------------[] 
- []
-
-
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-[15 <./media/graphs/damped_oscilation_with_envelopes.pdf>]
-Overfull \hbox (92.85483pt too wide) in paragraph at lines 611--611
-[]\OT1/ntxtt/m/n/12 ---------------------------------------------------------------------------------------[] 
- []
-
-[16]
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 14.4pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.5pt on input line 682.
-LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.9pt on input line 682.
- (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\06-Spring\06-Report\build\006_MOFT_report.bbl [17]) [18] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\06-Spring\06-Report\build\006_MOFT_report.aux)
+[5 <./media/graphs/graph.pdf>] [6] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\08-Sound_Velocity\08-Report\build\008_MOFT_report.bbl) [7] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\08-Sound_Velocity\08-Report\build\008_MOFT_report.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 13644 strings out of 467870
- 276721 string characters out of 5418355
- 988222 words of memory out of 5000000
- 42293 multiletter control sequences out of 15000+600000
- 676215 words of font info for 136 fonts, out of 8000000 for 9000
+ 13572 strings out of 467870
+ 274586 string characters out of 5418355
+ 655920 words of memory out of 5000000
+ 42227 multiletter control sequences out of 15000+600000
+ 661472 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,80p,769b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\06-Spring\06-Report\build\006_MOFT_report.pdf" (19 pages, 1121693 bytes).
+ 74i,10n,80p,1206b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI7.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txtt.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\CEFET\EngMec\Curso Principal\3S\Mechanics_Oscilations_Fluids_Termodynamics_Lab-Class\Experiments\08-Sound_Velocity\08-Report\build\008_MOFT_report.pdf" (8 pages, 528560 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
+ 103 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
